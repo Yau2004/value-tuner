@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="在瀏覽器本機以精確有理數搜尋數值微調候選；不需要登入、API key 或後端。"
+    />
+    <meta name="theme-color" content="#f1f5f9" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <title>數值微調搜尋器 · Value Tuner</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到主要內容</a>
+
+    <header class="site-header">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">±</span>
+        <div class="brand-text">
+          <h1>數值微調搜尋器</h1>
+          <p>Value Tuner</p>
+        </div>
+      </div>
+      <p class="local-note">
+        <span class="local-dot" aria-hidden="true"></span>
+        全部在瀏覽器本機計算，不上傳、不需登入
+      </p>
+    </header>
+
+    <main id="main" class="layout">
+      <section class="panel form-panel" aria-labelledby="form-title">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">搜尋設定</p>
+            <h2 id="form-title">找出附近的合格候選</h2>
+          </div>
+        </div>
+        <p class="panel-intro">
+          以 initial 的原始小數位數建立固定格點，分別向上與向下搜尋。搜尋不會自動開始。
+        </p>
+
+        <form id="search-form" novalidate>
+          <div class="field">
+            <label for="initial">initial</label>
+            <input
+              id="initial"
+              name="initial"
+              type="text"
+              inputmode="decimal"
+              autocomplete="off"
+              spellcheck="false"
+              value="0.165"
+              aria-describedby="initial-help initial-error"
+            />
+            <p id="initial-help" class="hint">
+              保留尾端零。例：0.100 的 d=3、步長 0.001。
+            </p>
+            <p id="initial-error" class="field-error" hidden></p>
+          </div>
+
+          <div class="field">
+            <label for="ratio">ratio</label>
+            <input
+              id="ratio"
+              name="ratio"
+              type="text"
+              inputmode="decimal"
+              autocomplete="off"
+              spellcheck="false"
+              value="3.1818"
+              aria-describedby="ratio-help ratio-error"
+            />
+            <p id="ratio-help" class="hint">只接受一般十進位正數，不使用科學記號。</p>
+            <p id="ratio-error" class="field-error" hidden></p>
+          </div>
+
+          <fieldset class="field operation-field">
+            <legend>運算方式</legend>
+            <div class="segmented">
+              <label class="segment">
+                <input type="radio" name="operation" value="1" checked />
+                <span>
+                  乘法
+                  <small>y = x × ratio</small>
+                </span>
+              </label>
+              <label class="segment">
+                <input type="radio" name="operation" value="2" />
+                <span>
+                  除法
+                  <small>y = x ÷ ratio</small>
+                </span>
+              </label>
+            </div>
+          </fieldset>
+
+          <details id="advanced" class="advanced">
+            <summary>進階設定</summary>
+            <div class="advanced-grid">
+              <div class="field">
+                <label for="max-steps">每方向最大步數</label>
+                <input
+                  id="max-steps"
+                  name="max-steps"
+                  type="number"
+                  inputmode="numeric"
+                  min="1"
+                  max="2000000"
+                  step="1"
+                  value="1000000"
+                  aria-describedby="max-steps-help max-steps-error"
+                />
+                <p id="max-steps-help" class="hint">
+                  預設 1,000,000。上限 2,000,000；超過會顯示錯誤，不會自動截斷。
+                </p>
+                <p id="max-steps-error" class="field-error" hidden></p>
+              </div>
+
+              <div class="field">
+                <label for="result-limit">每方向結果筆數</label>
+                <input
+                  id="result-limit"
+                  name="result-limit"
+                  type="number"
+                  inputmode="numeric"
+                  min="1"
+                  max="20"
+                  step="1"
+                  value="3"
+                  aria-describedby="result-limit-help result-limit-error"
+                />
+                <p id="result-limit-help" class="hint">預設 3。上限 20。</p>
+                <p id="result-limit-error" class="field-error" hidden></p>
+              </div>
+
+              <div class="field">
+                <label for="target-decimals">target 小數位數</label>
+                <input
+                  id="target-decimals"
+                  name="target-decimals"
+                  type="number"
+                  inputmode="numeric"
+                  min="0"
+                  max="100"
+                  step="1"
+                  placeholder="自動（= d）"
+                  aria-describedby="target-decimals-help target-decimals-error"
+                />
+                <p id="target-decimals-help" class="hint">
+                  留空代表使用 d；可填 0–100。不會改變搜尋步長。
+                </p>
+                <p id="target-decimals-error" class="field-error" hidden></p>
+              </div>
+            </div>
+          </details>
+
+          <div class="form-actions">
+            <button id="start" type="submit" class="btn btn-primary">開始搜尋</button>
+            <button id="cancel" type="button" class="btn btn-cancel" disabled>
+              取消搜尋
+            </button>
+          </div>
+
+          <div class="secondary-actions">
+            <button id="load-example" type="button" class="btn-link">載入範例</button>
+            <button id="reset" type="button" class="btn-link">重設</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="results-column" aria-labelledby="status-title">
+        <div id="status-card" class="status-card" data-state="idle">
+          <span id="status-icon" class="status-icon" aria-hidden="true"></span>
+          <div class="status-copy">
+            <p class="eyebrow">目前狀態</p>
+            <h2 id="status-title" class="status-title">準備搜尋</h2>
+            <p id="status-text" class="status-text" role="status" aria-live="polite">
+              設定參數後按「開始搜尋」。所有計算都在你的瀏覽器內完成。
+            </p>
+          </div>
+        </div>
+
+        <div id="progress-panel" class="progress-panel" hidden>
+          <div class="progress-row">
+            <span class="spinner" aria-hidden="true"></span>
+            <span>搜尋中，已檢查 <strong id="progress-checked">0</strong> 步</span>
+          </div>
+          <p id="progress-detail" class="progress-detail">等待 Worker 回報進度…</p>
+          <p class="hint">進度只是已檢查步數，不預估完成百分比或時間。</p>
+        </div>
+
+        <div id="stale-notice" class="notice notice-warn" hidden>
+          下方結果來自上一次搜尋，與目前輸入不同。請重新搜尋以取得目前設定的結果。
+        </div>
+
+        <div id="error-panel" class="notice notice-error" role="alert" hidden>
+          <strong>搜尋失敗</strong>
+          <p id="error-text"></p>
+        </div>
+
+        <div id="empty-state" class="empty-state">
+          <div class="empty-mark" aria-hidden="true">∑</div>
+          <h2 id="empty-title">還沒有搜尋結果</h2>
+          <p id="empty-text">
+            輸入 initial 與 ratio，選擇乘法或除法後開始搜尋。預設會在 initial 的固定格點上，向上與向下各找最近 3 個合格候選。
+          </p>
+          <ul class="empty-points">
+            <li>精確有理數運算，不使用浮點數判斷</li>
+            <li>搜尋在 Web Worker 中執行，頁面保持可操作</li>
+            <li>可隨時取消；取消後不顯示未完成的部分結果</li>
+          </ul>
+        </div>
+
+        <div id="results" class="results" hidden>
+          <section class="panel" aria-labelledby="summary-title">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">本次設定</p>
+                <h2 id="summary-title">計算摘要</h2>
+              </div>
+            </div>
+            <dl class="summary-grid">
+              <div><dt>initial</dt><dd id="summary-initial" class="num"></dd></div>
+              <div><dt>ratio</dt><dd id="summary-ratio" class="num"></dd></div>
+              <div><dt>operation</dt><dd id="summary-operation"></dd></div>
+              <div><dt>initial 小數位數 d</dt><dd id="summary-d" class="num"></dd></div>
+              <div><dt>搜尋步長 step</dt><dd id="summary-step" class="num"></dd></div>
+              <div><dt>discrepancy 位數 p</dt><dd id="summary-p" class="num"></dd></div>
+              <div><dt>target 小數位數</dt><dd id="summary-target" class="num"></dd></div>
+              <div><dt>合格門檻</dt><dd id="summary-threshold" class="num"></dd></div>
+              <div><dt>每方向安全上限</dt><dd id="summary-max-steps" class="num"></dd></div>
+              <div><dt>每方向結果上限</dt><dd id="summary-limit" class="num"></dd></div>
+            </dl>
+          </section>
+
+          <section id="initial-panel" class="panel initial-panel" aria-labelledby="initial-title">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">initial 本身</p>
+                <h2 id="initial-title">檢查結果</h2>
+              </div>
+              <span id="initial-badge" class="badge"></span>
+            </div>
+            <dl class="value-grid">
+              <div><dt>actual result y</dt><dd id="initial-y" class="num"></dd></div>
+              <div><dt>target</dt><dd id="initial-target" class="num"></dd></div>
+              <div><dt>discrepancy（高精度）</dt><dd id="initial-discrepancy" class="num"></dd></div>
+              <div><dt>discrepancy（p 位顯示）</dt><dd id="initial-rounded" class="num"></dd></div>
+            </dl>
+            <p id="initial-note" class="result-note"></p>
+          </section>
+
+          <section id="down-panel" class="panel direction-panel" aria-labelledby="down-title">
+            <div class="panel-heading direction-heading">
+              <div>
+                <p class="eyebrow">x &lt; initial</p>
+                <h2 id="down-title">下調：最近的 3 個合格候選</h2>
+                <p id="down-meta" class="direction-meta"></p>
+              </div>
+            </div>
+            <div id="down-body"></div>
+          </section>
+
+          <section id="up-panel" class="panel direction-panel" aria-labelledby="up-title">
+            <div class="panel-heading direction-heading">
+              <div>
+                <p class="eyebrow">x &gt; initial</p>
+                <h2 id="up-title">上調：最近的 3 個合格候選</h2>
+                <p id="up-meta" class="direction-meta"></p>
+              </div>
+            </div>
+            <div id="up-body"></div>
+          </section>
+
+          <p class="precision-note">
+            合格判定使用精確有理數；畫面中的百分比是 ROUND_HALF_UP 顯示。標示 ≈
+            表示顯示值非精確值；顯示為 0.00% 也不代表精確誤差等於零。
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>數值微調搜尋器 · Value Tuner</p>
+      <p>無 analytics、無上傳、無遠端 API；可直接部署為靜態網站。</p>
+    </footer>
+
+    <noscript>
+      <p class="noscript">此工具需要 JavaScript 與 Web Worker 才能在瀏覽器本機計算。</p>
+    </noscript>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

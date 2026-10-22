@@ -1,0 +1,7266 @@
+{
+  "cases": [
+    {
+      "down": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "1750",
+              "n": "1"
+            },
+            "display": {
+              "delta": "-0.011",
+              "discrepancy": "≈ 0.0005714286%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.00%",
+              "target": "0.49",
+              "x": "0.154",
+              "y": "0.4899972"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "100",
+              "n": "49"
+            },
+            "x": {
+              "d": "500",
+              "n": "77"
+            },
+            "y": {
+              "d": "2500000",
+              "n": "1224993"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1750",
+              "n": "1"
+            },
+            "display": {
+              "delta": "-0.022",
+              "discrepancy": "≈ 0.0005714286%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.00%",
+              "target": "0.455",
+              "x": "0.143",
+              "y": "0.4549974"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "200",
+              "n": "91"
+            },
+            "x": {
+              "d": "1000",
+              "n": "143"
+            },
+            "y": {
+              "d": "5000000",
+              "n": "2274987"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1750",
+              "n": "1"
+            },
+            "display": {
+              "delta": "-0.033",
+              "discrepancy": "≈ 0.0005714286%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.00%",
+              "target": "0.42",
+              "x": "0.132",
+              "y": "0.4199976"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "50",
+              "n": "21"
+            },
+            "x": {
+              "d": "250",
+              "n": "33"
+            },
+            "y": {
+              "d": "1250000",
+              "n": "524997"
+            }
+          }
+        ],
+        "checked": 33,
+        "hitLimit": false,
+        "stop": "limit"
+      },
+      "initial": {
+        "discrepancy": {
+          "d": "1750",
+          "n": "1"
+        },
+        "display": {
+          "delta": null,
+          "discrepancy": "≈ 0.0005714286%",
+          "exactZero": false,
+          "roundedDiscrepancy": "0.00%",
+          "target": "0.525",
+          "x": "0.165",
+          "y": "0.524997"
+        },
+        "qualified": true,
+        "roundedDiscrepancy": {
+          "d": "1",
+          "n": "0"
+        },
+        "target": {
+          "d": "40",
+          "n": "21"
+        },
+        "x": {
+          "d": "200",
+          "n": "33"
+        },
+        "y": {
+          "d": "1000000",
+          "n": "524997"
+        }
+      },
+      "input": {
+        "initialText": "0.165",
+        "maxSteps": 100,
+        "operation": 1,
+        "ratioText": "3.1818",
+        "resultLimit": 3,
+        "targetDecimals": null
+      },
+      "name": "required-0165",
+      "settings": {
+        "d": 3,
+        "displayPlaces": 10,
+        "initialText": "0.165",
+        "maxSteps": 100,
+        "operation": 1,
+        "p": 2,
+        "ratioText": "3.1818",
+        "resultLimit": 3,
+        "step": "0.001",
+        "targetDecimals": 3,
+        "targetMode": "auto",
+        "threshold": "0.005%"
+      },
+      "up": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "1750",
+              "n": "1"
+            },
+            "display": {
+              "delta": "+0.011",
+              "discrepancy": "≈ 0.0005714286%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.00%",
+              "target": "0.56",
+              "x": "0.176",
+              "y": "0.5599968"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "25",
+              "n": "14"
+            },
+            "x": {
+              "d": "125",
+              "n": "22"
+            },
+            "y": {
+              "d": "312500",
+              "n": "174999"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1750",
+              "n": "1"
+            },
+            "display": {
+              "delta": "+0.022",
+              "discrepancy": "≈ 0.0005714286%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.00%",
+              "target": "0.595",
+              "x": "0.187",
+              "y": "0.5949966"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "200",
+              "n": "119"
+            },
+            "x": {
+              "d": "1000",
+              "n": "187"
+            },
+            "y": {
+              "d": "5000000",
+              "n": "2974983"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1750",
+              "n": "1"
+            },
+            "display": {
+              "delta": "+0.033",
+              "discrepancy": "≈ 0.0005714286%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.00%",
+              "target": "0.63",
+              "x": "0.198",
+              "y": "0.6299964"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "100",
+              "n": "63"
+            },
+            "x": {
+              "d": "500",
+              "n": "99"
+            },
+            "y": {
+              "d": "2500000",
+              "n": "1574991"
+            }
+          }
+        ],
+        "checked": 33,
+        "hitLimit": false,
+        "stop": "limit"
+      }
+    },
+    {
+      "down": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "1750",
+              "n": "1"
+            },
+            "display": {
+              "delta": "-0.011",
+              "discrepancy": "≈ 0.0005714286%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.00%",
+              "target": "0.525",
+              "x": "0.165",
+              "y": "0.524997"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "40",
+              "n": "21"
+            },
+            "x": {
+              "d": "200",
+              "n": "33"
+            },
+            "y": {
+              "d": "1000000",
+              "n": "524997"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1750",
+              "n": "1"
+            },
+            "display": {
+              "delta": "-0.022",
+              "discrepancy": "≈ 0.0005714286%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.00%",
+              "target": "0.49",
+              "x": "0.154",
+              "y": "0.4899972"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "100",
+              "n": "49"
+            },
+            "x": {
+              "d": "500",
+              "n": "77"
+            },
+            "y": {
+              "d": "2500000",
+              "n": "1224993"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1750",
+              "n": "1"
+            },
+            "display": {
+              "delta": "-0.033",
+              "discrepancy": "≈ 0.0005714286%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.00%",
+              "target": "0.455",
+              "x": "0.143",
+              "y": "0.4549974"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "200",
+              "n": "91"
+            },
+            "x": {
+              "d": "1000",
+              "n": "143"
+            },
+            "y": {
+              "d": "5000000",
+              "n": "2274987"
+            }
+          }
+        ],
+        "checked": 33,
+        "hitLimit": false,
+        "stop": "limit"
+      },
+      "initial": {
+        "discrepancy": {
+          "d": "1750",
+          "n": "1"
+        },
+        "display": {
+          "delta": null,
+          "discrepancy": "≈ 0.0005714286%",
+          "exactZero": false,
+          "roundedDiscrepancy": "0.00%",
+          "target": "0.56",
+          "x": "0.176",
+          "y": "0.5599968"
+        },
+        "qualified": true,
+        "roundedDiscrepancy": {
+          "d": "1",
+          "n": "0"
+        },
+        "target": {
+          "d": "25",
+          "n": "14"
+        },
+        "x": {
+          "d": "125",
+          "n": "22"
+        },
+        "y": {
+          "d": "312500",
+          "n": "174999"
+        }
+      },
+      "input": {
+        "initialText": "0.176",
+        "maxSteps": 100,
+        "operation": 1,
+        "ratioText": "3.1818",
+        "resultLimit": 3,
+        "targetDecimals": null
+      },
+      "name": "required-0176-initial",
+      "settings": {
+        "d": 3,
+        "displayPlaces": 10,
+        "initialText": "0.176",
+        "maxSteps": 100,
+        "operation": 1,
+        "p": 2,
+        "ratioText": "3.1818",
+        "resultLimit": 3,
+        "step": "0.001",
+        "targetDecimals": 3,
+        "targetMode": "auto",
+        "threshold": "0.005%"
+      },
+      "up": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "1750",
+              "n": "1"
+            },
+            "display": {
+              "delta": "+0.011",
+              "discrepancy": "≈ 0.0005714286%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.00%",
+              "target": "0.595",
+              "x": "0.187",
+              "y": "0.5949966"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "200",
+              "n": "119"
+            },
+            "x": {
+              "d": "1000",
+              "n": "187"
+            },
+            "y": {
+              "d": "5000000",
+              "n": "2974983"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1750",
+              "n": "1"
+            },
+            "display": {
+              "delta": "+0.022",
+              "discrepancy": "≈ 0.0005714286%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.00%",
+              "target": "0.63",
+              "x": "0.198",
+              "y": "0.6299964"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "100",
+              "n": "63"
+            },
+            "x": {
+              "d": "500",
+              "n": "99"
+            },
+            "y": {
+              "d": "2500000",
+              "n": "1574991"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1750",
+              "n": "1"
+            },
+            "display": {
+              "delta": "+0.033",
+              "discrepancy": "≈ 0.0005714286%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.00%",
+              "target": "0.665",
+              "x": "0.209",
+              "y": "0.6649962"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "200",
+              "n": "133"
+            },
+            "x": {
+              "d": "1000",
+              "n": "209"
+            },
+            "y": {
+              "d": "5000000",
+              "n": "3324981"
+            }
+          }
+        ],
+        "checked": 33,
+        "hitLimit": false,
+        "stop": "limit"
+      }
+    },
+    {
+      "down": {
+        "candidates": [],
+        "checked": 0,
+        "hitLimit": false,
+        "stop": "nonpositive"
+      },
+      "initial": {
+        "discrepancy": {
+          "d": "1",
+          "n": "0"
+        },
+        "display": {
+          "delta": null,
+          "discrepancy": "0%",
+          "exactZero": true,
+          "roundedDiscrepancy": "0%",
+          "target": "0.1",
+          "x": "0.1",
+          "y": "0.1"
+        },
+        "qualified": true,
+        "roundedDiscrepancy": {
+          "d": "1",
+          "n": "0"
+        },
+        "target": {
+          "d": "10",
+          "n": "1"
+        },
+        "x": {
+          "d": "10",
+          "n": "1"
+        },
+        "y": {
+          "d": "10",
+          "n": "1"
+        }
+      },
+      "input": {
+        "initialText": "0.1",
+        "maxSteps": 10,
+        "operation": 1,
+        "ratioText": "1",
+        "resultLimit": 3,
+        "targetDecimals": null
+      },
+      "name": "d1-0.1",
+      "settings": {
+        "d": 1,
+        "displayPlaces": 10,
+        "initialText": "0.1",
+        "maxSteps": 10,
+        "operation": 1,
+        "p": 0,
+        "ratioText": "1",
+        "resultLimit": 3,
+        "step": "0.1",
+        "targetDecimals": 1,
+        "targetMode": "auto",
+        "threshold": "0.5%"
+      },
+      "up": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+0.1",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "0.2",
+              "x": "0.2",
+              "y": "0.2"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "5",
+              "n": "1"
+            },
+            "x": {
+              "d": "5",
+              "n": "1"
+            },
+            "y": {
+              "d": "5",
+              "n": "1"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+0.2",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "0.3",
+              "x": "0.3",
+              "y": "0.3"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "10",
+              "n": "3"
+            },
+            "x": {
+              "d": "10",
+              "n": "3"
+            },
+            "y": {
+              "d": "10",
+              "n": "3"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+0.3",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "0.4",
+              "x": "0.4",
+              "y": "0.4"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "5",
+              "n": "2"
+            },
+            "x": {
+              "d": "5",
+              "n": "2"
+            },
+            "y": {
+              "d": "5",
+              "n": "2"
+            }
+          }
+        ],
+        "checked": 3,
+        "hitLimit": false,
+        "stop": "limit"
+      }
+    },
+    {
+      "down": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "-0.01",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0.0%",
+              "target": "0.09",
+              "x": "0.09",
+              "y": "0.09"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "100",
+              "n": "9"
+            },
+            "x": {
+              "d": "100",
+              "n": "9"
+            },
+            "y": {
+              "d": "100",
+              "n": "9"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "-0.02",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0.0%",
+              "target": "0.08",
+              "x": "0.08",
+              "y": "0.08"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "25",
+              "n": "2"
+            },
+            "x": {
+              "d": "25",
+              "n": "2"
+            },
+            "y": {
+              "d": "25",
+              "n": "2"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "-0.03",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0.0%",
+              "target": "0.07",
+              "x": "0.07",
+              "y": "0.07"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "100",
+              "n": "7"
+            },
+            "x": {
+              "d": "100",
+              "n": "7"
+            },
+            "y": {
+              "d": "100",
+              "n": "7"
+            }
+          }
+        ],
+        "checked": 3,
+        "hitLimit": false,
+        "stop": "limit"
+      },
+      "initial": {
+        "discrepancy": {
+          "d": "1",
+          "n": "0"
+        },
+        "display": {
+          "delta": null,
+          "discrepancy": "0%",
+          "exactZero": true,
+          "roundedDiscrepancy": "0.0%",
+          "target": "0.1",
+          "x": "0.10",
+          "y": "0.1"
+        },
+        "qualified": true,
+        "roundedDiscrepancy": {
+          "d": "1",
+          "n": "0"
+        },
+        "target": {
+          "d": "10",
+          "n": "1"
+        },
+        "x": {
+          "d": "10",
+          "n": "1"
+        },
+        "y": {
+          "d": "10",
+          "n": "1"
+        }
+      },
+      "input": {
+        "initialText": "0.10",
+        "maxSteps": 10,
+        "operation": 1,
+        "ratioText": "1",
+        "resultLimit": 3,
+        "targetDecimals": null
+      },
+      "name": "d2-0.10",
+      "settings": {
+        "d": 2,
+        "displayPlaces": 10,
+        "initialText": "0.10",
+        "maxSteps": 10,
+        "operation": 1,
+        "p": 1,
+        "ratioText": "1",
+        "resultLimit": 3,
+        "step": "0.01",
+        "targetDecimals": 2,
+        "targetMode": "auto",
+        "threshold": "0.05%"
+      },
+      "up": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+0.01",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0.0%",
+              "target": "0.11",
+              "x": "0.11",
+              "y": "0.11"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "100",
+              "n": "11"
+            },
+            "x": {
+              "d": "100",
+              "n": "11"
+            },
+            "y": {
+              "d": "100",
+              "n": "11"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+0.02",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0.0%",
+              "target": "0.12",
+              "x": "0.12",
+              "y": "0.12"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "25",
+              "n": "3"
+            },
+            "x": {
+              "d": "25",
+              "n": "3"
+            },
+            "y": {
+              "d": "25",
+              "n": "3"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+0.03",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0.0%",
+              "target": "0.13",
+              "x": "0.13",
+              "y": "0.13"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "100",
+              "n": "13"
+            },
+            "x": {
+              "d": "100",
+              "n": "13"
+            },
+            "y": {
+              "d": "100",
+              "n": "13"
+            }
+          }
+        ],
+        "checked": 3,
+        "hitLimit": false,
+        "stop": "limit"
+      }
+    },
+    {
+      "down": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "-0.001",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0.00%",
+              "target": "0.099",
+              "x": "0.099",
+              "y": "0.099"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1000",
+              "n": "99"
+            },
+            "x": {
+              "d": "1000",
+              "n": "99"
+            },
+            "y": {
+              "d": "1000",
+              "n": "99"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "-0.002",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0.00%",
+              "target": "0.098",
+              "x": "0.098",
+              "y": "0.098"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "500",
+              "n": "49"
+            },
+            "x": {
+              "d": "500",
+              "n": "49"
+            },
+            "y": {
+              "d": "500",
+              "n": "49"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "-0.003",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0.00%",
+              "target": "0.097",
+              "x": "0.097",
+              "y": "0.097"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1000",
+              "n": "97"
+            },
+            "x": {
+              "d": "1000",
+              "n": "97"
+            },
+            "y": {
+              "d": "1000",
+              "n": "97"
+            }
+          }
+        ],
+        "checked": 3,
+        "hitLimit": false,
+        "stop": "limit"
+      },
+      "initial": {
+        "discrepancy": {
+          "d": "1",
+          "n": "0"
+        },
+        "display": {
+          "delta": null,
+          "discrepancy": "0%",
+          "exactZero": true,
+          "roundedDiscrepancy": "0.00%",
+          "target": "0.1",
+          "x": "0.100",
+          "y": "0.1"
+        },
+        "qualified": true,
+        "roundedDiscrepancy": {
+          "d": "1",
+          "n": "0"
+        },
+        "target": {
+          "d": "10",
+          "n": "1"
+        },
+        "x": {
+          "d": "10",
+          "n": "1"
+        },
+        "y": {
+          "d": "10",
+          "n": "1"
+        }
+      },
+      "input": {
+        "initialText": "0.100",
+        "maxSteps": 10,
+        "operation": 1,
+        "ratioText": "1",
+        "resultLimit": 3,
+        "targetDecimals": null
+      },
+      "name": "d3-0.100",
+      "settings": {
+        "d": 3,
+        "displayPlaces": 10,
+        "initialText": "0.100",
+        "maxSteps": 10,
+        "operation": 1,
+        "p": 2,
+        "ratioText": "1",
+        "resultLimit": 3,
+        "step": "0.001",
+        "targetDecimals": 3,
+        "targetMode": "auto",
+        "threshold": "0.005%"
+      },
+      "up": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+0.001",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0.00%",
+              "target": "0.101",
+              "x": "0.101",
+              "y": "0.101"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1000",
+              "n": "101"
+            },
+            "x": {
+              "d": "1000",
+              "n": "101"
+            },
+            "y": {
+              "d": "1000",
+              "n": "101"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+0.002",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0.00%",
+              "target": "0.102",
+              "x": "0.102",
+              "y": "0.102"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "500",
+              "n": "51"
+            },
+            "x": {
+              "d": "500",
+              "n": "51"
+            },
+            "y": {
+              "d": "500",
+              "n": "51"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+0.003",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0.00%",
+              "target": "0.103",
+              "x": "0.103",
+              "y": "0.103"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1000",
+              "n": "103"
+            },
+            "x": {
+              "d": "1000",
+              "n": "103"
+            },
+            "y": {
+              "d": "1000",
+              "n": "103"
+            }
+          }
+        ],
+        "checked": 3,
+        "hitLimit": false,
+        "stop": "limit"
+      }
+    },
+    {
+      "down": {
+        "candidates": [],
+        "checked": 0,
+        "hitLimit": false,
+        "stop": "nonpositive"
+      },
+      "initial": {
+        "discrepancy": {
+          "d": "1",
+          "n": "0"
+        },
+        "display": {
+          "delta": null,
+          "discrepancy": "0%",
+          "exactZero": true,
+          "roundedDiscrepancy": "0%",
+          "target": "1",
+          "x": "1",
+          "y": "1"
+        },
+        "qualified": true,
+        "roundedDiscrepancy": {
+          "d": "1",
+          "n": "0"
+        },
+        "target": {
+          "d": "1",
+          "n": "1"
+        },
+        "x": {
+          "d": "1",
+          "n": "1"
+        },
+        "y": {
+          "d": "1",
+          "n": "1"
+        }
+      },
+      "input": {
+        "initialText": "1",
+        "maxSteps": 5,
+        "operation": 1,
+        "ratioText": "1",
+        "resultLimit": 3,
+        "targetDecimals": null
+      },
+      "name": "d0-integer",
+      "settings": {
+        "d": 0,
+        "displayPlaces": 10,
+        "initialText": "1",
+        "maxSteps": 5,
+        "operation": 1,
+        "p": 0,
+        "ratioText": "1",
+        "resultLimit": 3,
+        "step": "1",
+        "targetDecimals": 0,
+        "targetMode": "auto",
+        "threshold": "0.5%"
+      },
+      "up": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+1",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "2",
+              "x": "2",
+              "y": "2"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1",
+              "n": "2"
+            },
+            "x": {
+              "d": "1",
+              "n": "2"
+            },
+            "y": {
+              "d": "1",
+              "n": "2"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+2",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "3",
+              "x": "3",
+              "y": "3"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1",
+              "n": "3"
+            },
+            "x": {
+              "d": "1",
+              "n": "3"
+            },
+            "y": {
+              "d": "1",
+              "n": "3"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+3",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "4",
+              "x": "4",
+              "y": "4"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1",
+              "n": "4"
+            },
+            "x": {
+              "d": "1",
+              "n": "4"
+            },
+            "y": {
+              "d": "1",
+              "n": "4"
+            }
+          }
+        ],
+        "checked": 3,
+        "hitLimit": false,
+        "stop": "limit"
+      }
+    },
+    {
+      "down": {
+        "candidates": [],
+        "checked": 0,
+        "hitLimit": false,
+        "stop": "nonpositive"
+      },
+      "initial": {
+        "discrepancy": null,
+        "display": {
+          "delta": null,
+          "discrepancy": null,
+          "exactZero": null,
+          "roundedDiscrepancy": null,
+          "target": "0",
+          "x": "0.0001",
+          "y": "0.0001"
+        },
+        "qualified": false,
+        "roundedDiscrepancy": null,
+        "target": {
+          "d": "1",
+          "n": "0"
+        },
+        "x": {
+          "d": "10000",
+          "n": "1"
+        },
+        "y": {
+          "d": "10000",
+          "n": "1"
+        }
+      },
+      "input": {
+        "initialText": "0.0001",
+        "maxSteps": 5,
+        "operation": 1,
+        "ratioText": "1",
+        "resultLimit": 3,
+        "targetDecimals": 3
+      },
+      "name": "target-zero",
+      "settings": {
+        "d": 4,
+        "displayPlaces": 10,
+        "initialText": "0.0001",
+        "maxSteps": 5,
+        "operation": 1,
+        "p": 3,
+        "ratioText": "1",
+        "resultLimit": 3,
+        "step": "0.0001",
+        "targetDecimals": 3,
+        "targetMode": "custom",
+        "threshold": "0.0005%"
+      },
+      "up": {
+        "candidates": [],
+        "checked": 5,
+        "hitLimit": true,
+        "stop": "safety"
+      }
+    },
+    {
+      "down": {
+        "candidates": [],
+        "checked": 50,
+        "hitLimit": true,
+        "stop": "safety"
+      },
+      "initial": {
+        "discrepancy": {
+          "d": "5200",
+          "n": "4997"
+        },
+        "display": {
+          "delta": null,
+          "discrepancy": "≈ 0.9609615385%",
+          "exactZero": false,
+          "roundedDiscrepancy": "0.961%",
+          "target": "0.52",
+          "x": "0.1650",
+          "y": "0.524997"
+        },
+        "qualified": false,
+        "roundedDiscrepancy": {
+          "d": "1000",
+          "n": "961"
+        },
+        "target": {
+          "d": "25",
+          "n": "13"
+        },
+        "x": {
+          "d": "200",
+          "n": "33"
+        },
+        "y": {
+          "d": "1000000",
+          "n": "524997"
+        }
+      },
+      "input": {
+        "initialText": "0.1650",
+        "maxSteps": 50,
+        "operation": 1,
+        "ratioText": "3.1818",
+        "resultLimit": 3,
+        "targetDecimals": 2
+      },
+      "name": "target-override",
+      "settings": {
+        "d": 4,
+        "displayPlaces": 10,
+        "initialText": "0.1650",
+        "maxSteps": 50,
+        "operation": 1,
+        "p": 3,
+        "ratioText": "3.1818",
+        "resultLimit": 3,
+        "step": "0.0001",
+        "targetDecimals": 2,
+        "targetMode": "custom",
+        "threshold": "0.0005%"
+      },
+      "up": {
+        "candidates": [],
+        "checked": 50,
+        "hitLimit": true,
+        "stop": "safety"
+      }
+    },
+    {
+      "down": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "-0.001",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0.00%",
+              "target": "0.499",
+              "x": "0.499",
+              "y": "0.499"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1000",
+              "n": "499"
+            },
+            "x": {
+              "d": "1000",
+              "n": "499"
+            },
+            "y": {
+              "d": "1000",
+              "n": "499"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "-0.002",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0.00%",
+              "target": "0.498",
+              "x": "0.498",
+              "y": "0.498"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "500",
+              "n": "249"
+            },
+            "x": {
+              "d": "500",
+              "n": "249"
+            },
+            "y": {
+              "d": "500",
+              "n": "249"
+            }
+          }
+        ],
+        "checked": 2,
+        "hitLimit": true,
+        "stop": "safety"
+      },
+      "initial": {
+        "discrepancy": {
+          "d": "1",
+          "n": "0"
+        },
+        "display": {
+          "delta": null,
+          "discrepancy": "0%",
+          "exactZero": true,
+          "roundedDiscrepancy": "0.00%",
+          "target": "0.5",
+          "x": "0.500",
+          "y": "0.5"
+        },
+        "qualified": true,
+        "roundedDiscrepancy": {
+          "d": "1",
+          "n": "0"
+        },
+        "target": {
+          "d": "2",
+          "n": "1"
+        },
+        "x": {
+          "d": "2",
+          "n": "1"
+        },
+        "y": {
+          "d": "2",
+          "n": "1"
+        }
+      },
+      "input": {
+        "initialText": "0.500",
+        "maxSteps": 2,
+        "operation": 1,
+        "ratioText": "1",
+        "resultLimit": 3,
+        "targetDecimals": null
+      },
+      "name": "safety-limit",
+      "settings": {
+        "d": 3,
+        "displayPlaces": 10,
+        "initialText": "0.500",
+        "maxSteps": 2,
+        "operation": 1,
+        "p": 2,
+        "ratioText": "1",
+        "resultLimit": 3,
+        "step": "0.001",
+        "targetDecimals": 3,
+        "targetMode": "auto",
+        "threshold": "0.005%"
+      },
+      "up": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+0.001",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0.00%",
+              "target": "0.501",
+              "x": "0.501",
+              "y": "0.501"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1000",
+              "n": "501"
+            },
+            "x": {
+              "d": "1000",
+              "n": "501"
+            },
+            "y": {
+              "d": "1000",
+              "n": "501"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+0.002",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0.00%",
+              "target": "0.502",
+              "x": "0.502",
+              "y": "0.502"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "500",
+              "n": "251"
+            },
+            "x": {
+              "d": "500",
+              "n": "251"
+            },
+            "y": {
+              "d": "500",
+              "n": "251"
+            }
+          }
+        ],
+        "checked": 2,
+        "hitLimit": true,
+        "stop": "safety"
+      }
+    },
+    {
+      "down": {
+        "candidates": [],
+        "checked": 0,
+        "hitLimit": false,
+        "stop": "nonpositive"
+      },
+      "initial": {
+        "discrepancy": {
+          "d": "1",
+          "n": "0"
+        },
+        "display": {
+          "delta": null,
+          "discrepancy": "0%",
+          "exactZero": true,
+          "roundedDiscrepancy": "0.00%",
+          "target": "0.001",
+          "x": "0.001",
+          "y": "0.001"
+        },
+        "qualified": true,
+        "roundedDiscrepancy": {
+          "d": "1",
+          "n": "0"
+        },
+        "target": {
+          "d": "1000",
+          "n": "1"
+        },
+        "x": {
+          "d": "1000",
+          "n": "1"
+        },
+        "y": {
+          "d": "1000",
+          "n": "1"
+        }
+      },
+      "input": {
+        "initialText": "0.001",
+        "maxSteps": 10,
+        "operation": 1,
+        "ratioText": "1",
+        "resultLimit": 3,
+        "targetDecimals": null
+      },
+      "name": "down-nonpositive",
+      "settings": {
+        "d": 3,
+        "displayPlaces": 10,
+        "initialText": "0.001",
+        "maxSteps": 10,
+        "operation": 1,
+        "p": 2,
+        "ratioText": "1",
+        "resultLimit": 3,
+        "step": "0.001",
+        "targetDecimals": 3,
+        "targetMode": "auto",
+        "threshold": "0.005%"
+      },
+      "up": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+0.001",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0.00%",
+              "target": "0.002",
+              "x": "0.002",
+              "y": "0.002"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "500",
+              "n": "1"
+            },
+            "x": {
+              "d": "500",
+              "n": "1"
+            },
+            "y": {
+              "d": "500",
+              "n": "1"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+0.002",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0.00%",
+              "target": "0.003",
+              "x": "0.003",
+              "y": "0.003"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1000",
+              "n": "3"
+            },
+            "x": {
+              "d": "1000",
+              "n": "3"
+            },
+            "y": {
+              "d": "1000",
+              "n": "3"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+0.003",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0.00%",
+              "target": "0.004",
+              "x": "0.004",
+              "y": "0.004"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "250",
+              "n": "1"
+            },
+            "x": {
+              "d": "250",
+              "n": "1"
+            },
+            "y": {
+              "d": "250",
+              "n": "1"
+            }
+          }
+        ],
+        "checked": 3,
+        "hitLimit": false,
+        "stop": "limit"
+      }
+    },
+    {
+      "down": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "-1",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "27021597764222976",
+              "x": "9007199254740992",
+              "y": "27021597764222976"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1",
+              "n": "27021597764222976"
+            },
+            "x": {
+              "d": "1",
+              "n": "9007199254740992"
+            },
+            "y": {
+              "d": "1",
+              "n": "27021597764222976"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "-2",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "27021597764222973",
+              "x": "9007199254740991",
+              "y": "27021597764222973"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1",
+              "n": "27021597764222973"
+            },
+            "x": {
+              "d": "1",
+              "n": "9007199254740991"
+            },
+            "y": {
+              "d": "1",
+              "n": "27021597764222973"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "-3",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "27021597764222970",
+              "x": "9007199254740990",
+              "y": "27021597764222970"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1",
+              "n": "27021597764222970"
+            },
+            "x": {
+              "d": "1",
+              "n": "9007199254740990"
+            },
+            "y": {
+              "d": "1",
+              "n": "27021597764222970"
+            }
+          }
+        ],
+        "checked": 3,
+        "hitLimit": false,
+        "stop": "limit"
+      },
+      "initial": {
+        "discrepancy": {
+          "d": "1",
+          "n": "0"
+        },
+        "display": {
+          "delta": null,
+          "discrepancy": "0%",
+          "exactZero": true,
+          "roundedDiscrepancy": "0%",
+          "target": "27021597764222979",
+          "x": "9007199254740993",
+          "y": "27021597764222979"
+        },
+        "qualified": true,
+        "roundedDiscrepancy": {
+          "d": "1",
+          "n": "0"
+        },
+        "target": {
+          "d": "1",
+          "n": "27021597764222979"
+        },
+        "x": {
+          "d": "1",
+          "n": "9007199254740993"
+        },
+        "y": {
+          "d": "1",
+          "n": "27021597764222979"
+        }
+      },
+      "input": {
+        "initialText": "9007199254740993",
+        "maxSteps": 5,
+        "operation": 1,
+        "ratioText": "3",
+        "resultLimit": 3,
+        "targetDecimals": null
+      },
+      "name": "large-safe-integer",
+      "settings": {
+        "d": 0,
+        "displayPlaces": 10,
+        "initialText": "9007199254740993",
+        "maxSteps": 5,
+        "operation": 1,
+        "p": 0,
+        "ratioText": "3",
+        "resultLimit": 3,
+        "step": "1",
+        "targetDecimals": 0,
+        "targetMode": "auto",
+        "threshold": "0.5%"
+      },
+      "up": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+1",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "27021597764222982",
+              "x": "9007199254740994",
+              "y": "27021597764222982"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1",
+              "n": "27021597764222982"
+            },
+            "x": {
+              "d": "1",
+              "n": "9007199254740994"
+            },
+            "y": {
+              "d": "1",
+              "n": "27021597764222982"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+2",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "27021597764222985",
+              "x": "9007199254740995",
+              "y": "27021597764222985"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1",
+              "n": "27021597764222985"
+            },
+            "x": {
+              "d": "1",
+              "n": "9007199254740995"
+            },
+            "y": {
+              "d": "1",
+              "n": "27021597764222985"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+3",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "27021597764222988",
+              "x": "9007199254740996",
+              "y": "27021597764222988"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1",
+              "n": "27021597764222988"
+            },
+            "x": {
+              "d": "1",
+              "n": "9007199254740996"
+            },
+            "y": {
+              "d": "1",
+              "n": "27021597764222988"
+            }
+          }
+        ],
+        "checked": 3,
+        "hitLimit": false,
+        "stop": "limit"
+      }
+    },
+    {
+      "down": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "8183641901655864190165575",
+              "n": "29"
+            },
+            "display": {
+              "delta": "-0.00001",
+              "discrepancy": "≈ 0%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.0000%",
+              "target": "39281481127948148112.79476",
+              "x": "12345678901234567890.12344",
+              "y": "39281481127948148112.794761392"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "25000",
+              "n": "982037028198703702819869"
+            },
+            "x": {
+              "d": "12500",
+              "n": "154320986265432098626543"
+            },
+            "y": {
+              "d": "62500000",
+              "n": "2455092570496759257049672587"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "65469135213246913521324550",
+              "n": "71"
+            },
+            "display": {
+              "delta": "-0.00002",
+              "discrepancy": "≈ 0%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.0000%",
+              "target": "39281481127948148112.79473",
+              "x": "12345678901234567890.12343",
+              "y": "39281481127948148112.794729574"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "100000",
+              "n": "3928148112794814811279473"
+            },
+            "x": {
+              "d": "100000",
+              "n": "1234567890123456789012343"
+            },
+            "y": {
+              "d": "500000000",
+              "n": "19640740563974074056397364787"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "32734567606623456760662250",
+              "n": "187"
+            },
+            "display": {
+              "delta": "-0.00003",
+              "discrepancy": "≈ 0%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.0000%",
+              "target": "39281481127948148112.7947",
+              "x": "12345678901234567890.12342",
+              "y": "39281481127948148112.794697756"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "10000",
+              "n": "392814811279481481127947"
+            },
+            "x": {
+              "d": "50000",
+              "n": "617283945061728394506171"
+            },
+            "y": {
+              "d": "250000000",
+              "n": "9820370281987037028198674439"
+            }
+          }
+        ],
+        "checked": 3,
+        "hitLimit": false,
+        "stop": "limit"
+      },
+      "initial": {
+        "discrepancy": {
+          "d": "13093827042649382704264930",
+          "n": "107"
+        },
+        "display": {
+          "delta": null,
+          "discrepancy": "≈ 0%",
+          "exactZero": false,
+          "roundedDiscrepancy": "0.0000%",
+          "target": "39281481127948148112.79479",
+          "x": "12345678901234567890.12345",
+          "y": "39281481127948148112.79479321"
+        },
+        "qualified": true,
+        "roundedDiscrepancy": {
+          "d": "1",
+          "n": "0"
+        },
+        "target": {
+          "d": "100000",
+          "n": "3928148112794814811279479"
+        },
+        "x": {
+          "d": "20000",
+          "n": "246913578024691357802469"
+        },
+        "y": {
+          "d": "100000000",
+          "n": "3928148112794814811279479321"
+        }
+      },
+      "input": {
+        "initialText": "12345678901234567890.12345",
+        "maxSteps": 10,
+        "operation": 1,
+        "ratioText": "3.1818",
+        "resultLimit": 3,
+        "targetDecimals": null
+      },
+      "name": "large-decimal",
+      "settings": {
+        "d": 5,
+        "displayPlaces": 11,
+        "initialText": "12345678901234567890.12345",
+        "maxSteps": 10,
+        "operation": 1,
+        "p": 4,
+        "ratioText": "3.1818",
+        "resultLimit": 3,
+        "step": "0.00001",
+        "targetDecimals": 5,
+        "targetMode": "auto",
+        "threshold": "0.00005%"
+      },
+      "up": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "98203702819870370281987075",
+              "n": "1243"
+            },
+            "display": {
+              "delta": "+0.00001",
+              "discrepancy": "≈ 0%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.0000%",
+              "target": "39281481127948148112.79483",
+              "x": "12345678901234567890.12346",
+              "y": "39281481127948148112.794825028"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "100000",
+              "n": "3928148112794814811279483"
+            },
+            "x": {
+              "d": "50000",
+              "n": "617283945061728394506173"
+            },
+            "y": {
+              "d": "250000000",
+              "n": "9820370281987037028198706257"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "196407405639740740563974300",
+              "n": "1577"
+            },
+            "display": {
+              "delta": "+0.00002",
+              "discrepancy": "≈ 0%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.0000%",
+              "target": "39281481127948148112.79486",
+              "x": "12345678901234567890.12347",
+              "y": "39281481127948148112.794856846"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "50000",
+              "n": "1964074056397407405639743"
+            },
+            "x": {
+              "d": "100000",
+              "n": "1234567890123456789012347"
+            },
+            "y": {
+              "d": "500000000",
+              "n": "19640740563974074056397428423"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "98203702819870370281987225",
+              "n": "334"
+            },
+            "display": {
+              "delta": "+0.00003",
+              "discrepancy": "≈ 0%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.0000%",
+              "target": "39281481127948148112.79489",
+              "x": "12345678901234567890.12348",
+              "y": "39281481127948148112.794888664"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "100000",
+              "n": "3928148112794814811279489"
+            },
+            "x": {
+              "d": "25000",
+              "n": "308641972530864197253087"
+            },
+            "y": {
+              "d": "125000000",
+              "n": "4910185140993518514099361083"
+            }
+          }
+        ],
+        "checked": 3,
+        "hitLimit": false,
+        "stop": "limit"
+      }
+    },
+    {
+      "down": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "-0.1",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "0.3",
+              "x": "0.9",
+              "y": "0.3"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "10",
+              "n": "3"
+            },
+            "x": {
+              "d": "10",
+              "n": "9"
+            },
+            "y": {
+              "d": "10",
+              "n": "3"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "-0.4",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "0.2",
+              "x": "0.6",
+              "y": "0.2"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "5",
+              "n": "1"
+            },
+            "x": {
+              "d": "5",
+              "n": "3"
+            },
+            "y": {
+              "d": "5",
+              "n": "1"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "-0.7",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "0.1",
+              "x": "0.3",
+              "y": "0.1"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "10",
+              "n": "1"
+            },
+            "x": {
+              "d": "10",
+              "n": "3"
+            },
+            "y": {
+              "d": "10",
+              "n": "1"
+            }
+          }
+        ],
+        "checked": 7,
+        "hitLimit": false,
+        "stop": "limit"
+      },
+      "initial": {
+        "discrepancy": {
+          "d": "9",
+          "n": "100"
+        },
+        "display": {
+          "delta": null,
+          "discrepancy": "≈ 11.1111111111%",
+          "exactZero": false,
+          "roundedDiscrepancy": "11%",
+          "target": "0.3",
+          "x": "1.0",
+          "y": "≈ 0.3333333333"
+        },
+        "qualified": false,
+        "roundedDiscrepancy": {
+          "d": "1",
+          "n": "11"
+        },
+        "target": {
+          "d": "10",
+          "n": "3"
+        },
+        "x": {
+          "d": "1",
+          "n": "1"
+        },
+        "y": {
+          "d": "3",
+          "n": "1"
+        }
+      },
+      "input": {
+        "initialText": "1.0",
+        "maxSteps": 10,
+        "operation": 2,
+        "ratioText": "3",
+        "resultLimit": 3,
+        "targetDecimals": null
+      },
+      "name": "divide-circular",
+      "settings": {
+        "d": 1,
+        "displayPlaces": 10,
+        "initialText": "1.0",
+        "maxSteps": 10,
+        "operation": 2,
+        "p": 0,
+        "ratioText": "3",
+        "resultLimit": 3,
+        "step": "0.1",
+        "targetDecimals": 1,
+        "targetMode": "auto",
+        "threshold": "0.5%"
+      },
+      "up": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+0.2",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "0.4",
+              "x": "1.2",
+              "y": "0.4"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "5",
+              "n": "2"
+            },
+            "x": {
+              "d": "5",
+              "n": "6"
+            },
+            "y": {
+              "d": "5",
+              "n": "2"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+0.5",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "0.5",
+              "x": "1.5",
+              "y": "0.5"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "2",
+              "n": "1"
+            },
+            "x": {
+              "d": "2",
+              "n": "3"
+            },
+            "y": {
+              "d": "2",
+              "n": "1"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+0.8",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "0.6",
+              "x": "1.8",
+              "y": "0.6"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "5",
+              "n": "3"
+            },
+            "x": {
+              "d": "5",
+              "n": "9"
+            },
+            "y": {
+              "d": "5",
+              "n": "3"
+            }
+          }
+        ],
+        "checked": 8,
+        "hitLimit": false,
+        "stop": "limit"
+      }
+    },
+    {
+      "down": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "-0.001",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0.00%",
+              "target": "0.499",
+              "x": "0.499",
+              "y": "0.499"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1000",
+              "n": "499"
+            },
+            "x": {
+              "d": "1000",
+              "n": "499"
+            },
+            "y": {
+              "d": "1000",
+              "n": "499"
+            }
+          }
+        ],
+        "checked": 1,
+        "hitLimit": false,
+        "stop": "limit"
+      },
+      "initial": {
+        "discrepancy": {
+          "d": "1",
+          "n": "0"
+        },
+        "display": {
+          "delta": null,
+          "discrepancy": "0%",
+          "exactZero": true,
+          "roundedDiscrepancy": "0.00%",
+          "target": "0.5",
+          "x": "0.500",
+          "y": "0.5"
+        },
+        "qualified": true,
+        "roundedDiscrepancy": {
+          "d": "1",
+          "n": "0"
+        },
+        "target": {
+          "d": "2",
+          "n": "1"
+        },
+        "x": {
+          "d": "2",
+          "n": "1"
+        },
+        "y": {
+          "d": "2",
+          "n": "1"
+        }
+      },
+      "input": {
+        "initialText": "0.500",
+        "maxSteps": 2,
+        "operation": 1,
+        "ratioText": "1",
+        "resultLimit": 1,
+        "targetDecimals": null
+      },
+      "name": "limit-one",
+      "settings": {
+        "d": 3,
+        "displayPlaces": 10,
+        "initialText": "0.500",
+        "maxSteps": 2,
+        "operation": 1,
+        "p": 2,
+        "ratioText": "1",
+        "resultLimit": 1,
+        "step": "0.001",
+        "targetDecimals": 3,
+        "targetMode": "auto",
+        "threshold": "0.005%"
+      },
+      "up": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+0.001",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0.00%",
+              "target": "0.501",
+              "x": "0.501",
+              "y": "0.501"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1000",
+              "n": "501"
+            },
+            "x": {
+              "d": "1000",
+              "n": "501"
+            },
+            "y": {
+              "d": "1000",
+              "n": "501"
+            }
+          }
+        ],
+        "checked": 1,
+        "hitLimit": false,
+        "stop": "limit"
+      }
+    },
+    {
+      "down": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "-0.01",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0.0%",
+              "target": "77.64",
+              "x": "19.41",
+              "y": "77.64"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "25",
+              "n": "1941"
+            },
+            "x": {
+              "d": "100",
+              "n": "1941"
+            },
+            "y": {
+              "d": "25",
+              "n": "1941"
+            }
+          }
+        ],
+        "checked": 1,
+        "hitLimit": false,
+        "stop": "limit"
+      },
+      "initial": {
+        "discrepancy": {
+          "d": "1",
+          "n": "0"
+        },
+        "display": {
+          "delta": null,
+          "discrepancy": "0%",
+          "exactZero": true,
+          "roundedDiscrepancy": "0.0%",
+          "target": "77.68",
+          "x": "19.42",
+          "y": "77.68"
+        },
+        "qualified": true,
+        "roundedDiscrepancy": {
+          "d": "1",
+          "n": "0"
+        },
+        "target": {
+          "d": "25",
+          "n": "1942"
+        },
+        "x": {
+          "d": "50",
+          "n": "971"
+        },
+        "y": {
+          "d": "25",
+          "n": "1942"
+        }
+      },
+      "input": {
+        "initialText": "19.42",
+        "maxSteps": 35,
+        "operation": 1,
+        "ratioText": "4",
+        "resultLimit": 1,
+        "targetDecimals": 4
+      },
+      "name": "random-00",
+      "settings": {
+        "d": 2,
+        "displayPlaces": 10,
+        "initialText": "19.42",
+        "maxSteps": 35,
+        "operation": 1,
+        "p": 1,
+        "ratioText": "4",
+        "resultLimit": 1,
+        "step": "0.01",
+        "targetDecimals": 4,
+        "targetMode": "custom",
+        "threshold": "0.05%"
+      },
+      "up": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+0.01",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0.0%",
+              "target": "77.72",
+              "x": "19.43",
+              "y": "77.72"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "25",
+              "n": "1943"
+            },
+            "x": {
+              "d": "100",
+              "n": "1943"
+            },
+            "y": {
+              "d": "25",
+              "n": "1943"
+            }
+          }
+        ],
+        "checked": 1,
+        "hitLimit": false,
+        "stop": "limit"
+      }
+    },
+    {
+      "down": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "378000",
+              "n": "83"
+            },
+            "display": {
+              "delta": "-0.0001",
+              "discrepancy": "≈ 0.0002195767%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.000%",
+              "target": "11.718",
+              "x": "5.0333",
+              "y": "11.71802573"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "500",
+              "n": "5859"
+            },
+            "x": {
+              "d": "10000",
+              "n": "50333"
+            },
+            "y": {
+              "d": "100000000",
+              "n": "1171802573"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "2929450",
+              "n": "177"
+            },
+            "display": {
+              "delta": "-0.0002",
+              "discrepancy": "≈ 0.0000604209%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.000%",
+              "target": "11.7178",
+              "x": "5.0332",
+              "y": "11.71779292"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "5000",
+              "n": "58589"
+            },
+            "x": {
+              "d": "2500",
+              "n": "12583"
+            },
+            "y": {
+              "d": "25000000",
+              "n": "292944823"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "11717600",
+              "n": "3989"
+            },
+            "display": {
+              "delta": "-0.0003",
+              "discrepancy": "≈ 0.0003404281%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.000%",
+              "target": "11.7176",
+              "x": "5.0331",
+              "y": "11.71756011"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1250",
+              "n": "14647"
+            },
+            "x": {
+              "d": "10000",
+              "n": "50331"
+            },
+            "y": {
+              "d": "100000000",
+              "n": "1171756011"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "167390",
+              "n": "39"
+            },
+            "display": {
+              "delta": "-0.0004",
+              "discrepancy": "≈ 0.0002329888%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.000%",
+              "target": "11.7173",
+              "x": "5.0330",
+              "y": "11.7173273"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "10000",
+              "n": "117173"
+            },
+            "x": {
+              "d": "1000",
+              "n": "5033"
+            },
+            "y": {
+              "d": "10000000",
+              "n": "117173273"
+            }
+          }
+        ],
+        "checked": 4,
+        "hitLimit": false,
+        "stop": "limit"
+      },
+      "initial": {
+        "discrepancy": {
+          "d": "1953050",
+          "n": "691"
+        },
+        "display": {
+          "delta": null,
+          "discrepancy": "≈ 0.0003538056%",
+          "exactZero": false,
+          "roundedDiscrepancy": "0.000%",
+          "target": "11.7183",
+          "x": "5.0334",
+          "y": "11.71825854"
+        },
+        "qualified": true,
+        "roundedDiscrepancy": {
+          "d": "1",
+          "n": "0"
+        },
+        "target": {
+          "d": "10000",
+          "n": "117183"
+        },
+        "x": {
+          "d": "5000",
+          "n": "25167"
+        },
+        "y": {
+          "d": "50000000",
+          "n": "585912927"
+        }
+      },
+      "input": {
+        "initialText": "5.0334",
+        "maxSteps": 80,
+        "operation": 1,
+        "ratioText": "2.3281",
+        "resultLimit": 4,
+        "targetDecimals": null
+      },
+      "name": "random-01",
+      "settings": {
+        "d": 4,
+        "displayPlaces": 10,
+        "initialText": "5.0334",
+        "maxSteps": 80,
+        "operation": 1,
+        "p": 3,
+        "ratioText": "2.3281",
+        "resultLimit": 4,
+        "step": "0.0001",
+        "targetDecimals": 4,
+        "targetMode": "auto",
+        "threshold": "0.0005%"
+      },
+      "up": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "2343700",
+              "n": "173"
+            },
+            "display": {
+              "delta": "+0.0001",
+              "discrepancy": "≈ 0.0000738149%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.000%",
+              "target": "11.7185",
+              "x": "5.0335",
+              "y": "11.71849135"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "2000",
+              "n": "23437"
+            },
+            "x": {
+              "d": "2000",
+              "n": "10067"
+            },
+            "y": {
+              "d": "20000000",
+              "n": "234369827"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "2929675",
+              "n": "604"
+            },
+            "display": {
+              "delta": "+0.0002",
+              "discrepancy": "≈ 0.0002061662%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.000%",
+              "target": "11.7187",
+              "x": "5.0336",
+              "y": "11.71872416"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "10000",
+              "n": "117187"
+            },
+            "x": {
+              "d": "625",
+              "n": "3146"
+            },
+            "y": {
+              "d": "3125000",
+              "n": "36621013"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "11719000",
+              "n": "4303"
+            },
+            "display": {
+              "delta": "+0.0003",
+              "discrepancy": "≈ 0.0003671815%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.000%",
+              "target": "11.719",
+              "x": "5.0337",
+              "y": "11.71895697"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1000",
+              "n": "11719"
+            },
+            "x": {
+              "d": "10000",
+              "n": "50337"
+            },
+            "y": {
+              "d": "100000000",
+              "n": "1171895697"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "5859600",
+              "n": "511"
+            },
+            "display": {
+              "delta": "+0.0004",
+              "discrepancy": "≈ 0.0000872073%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.000%",
+              "target": "11.7192",
+              "x": "5.0338",
+              "y": "11.71918978"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1250",
+              "n": "14649"
+            },
+            "x": {
+              "d": "5000",
+              "n": "25169"
+            },
+            "y": {
+              "d": "50000000",
+              "n": "585959489"
+            }
+          }
+        ],
+        "checked": 4,
+        "hitLimit": false,
+        "stop": "limit"
+      }
+    },
+    {
+      "down": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "754747",
+              "n": "300"
+            },
+            "display": {
+              "delta": "-0.0010",
+              "discrepancy": "≈ 0.0003974842%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.000%",
+              "target": "4.431",
+              "x": "4.5285",
+              "y": "≈ 4.4310176125"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1000",
+              "n": "4431"
+            },
+            "x": {
+              "d": "2000",
+              "n": "9057"
+            },
+            "y": {
+              "d": "2044",
+              "n": "9057"
+            }
+          }
+        ],
+        "checked": 10,
+        "hitLimit": false,
+        "stop": "limit"
+      },
+      "initial": {
+        "discrepancy": {
+          "d": "283094",
+          "n": "25"
+        },
+        "display": {
+          "delta": null,
+          "discrepancy": "≈ 0.0000883099%",
+          "exactZero": false,
+          "roundedDiscrepancy": "0.000%",
+          "target": "4.432",
+          "x": "4.5295",
+          "y": "≈ 4.4319960861"
+        },
+        "qualified": true,
+        "roundedDiscrepancy": {
+          "d": "1",
+          "n": "0"
+        },
+        "target": {
+          "d": "125",
+          "n": "554"
+        },
+        "x": {
+          "d": "2000",
+          "n": "9059"
+        },
+        "y": {
+          "d": "2044",
+          "n": "9059"
+        }
+      },
+      "input": {
+        "initialText": "4.5295",
+        "maxSteps": 13,
+        "operation": 2,
+        "ratioText": "1.022",
+        "resultLimit": 1,
+        "targetDecimals": 3
+      },
+      "name": "random-02",
+      "settings": {
+        "d": 4,
+        "displayPlaces": 10,
+        "initialText": "4.5295",
+        "maxSteps": 13,
+        "operation": 2,
+        "p": 3,
+        "ratioText": "1.022",
+        "resultLimit": 1,
+        "step": "0.0001",
+        "targetDecimals": 3,
+        "targetMode": "custom",
+        "threshold": "0.0005%"
+      },
+      "up": {
+        "candidates": [],
+        "checked": 13,
+        "hitLimit": true,
+        "stop": "safety"
+      }
+    },
+    {
+      "down": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "29493",
+              "n": "700"
+            },
+            "display": {
+              "delta": "-0.1",
+              "discrepancy": "≈ 0.0237344455%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0%",
+              "target": "7.83",
+              "x": "17.7",
+              "y": "≈ 7.8318584071"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "100",
+              "n": "783"
+            },
+            "x": {
+              "d": "10",
+              "n": "177"
+            },
+            "y": {
+              "d": "113",
+              "n": "885"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "88027",
+              "n": "2700"
+            },
+            "display": {
+              "delta": "-0.2",
+              "discrepancy": "≈ 0.0306724073%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0%",
+              "target": "7.79",
+              "x": "17.6",
+              "y": "≈ 7.7876106195"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "100",
+              "n": "779"
+            },
+            "x": {
+              "d": "5",
+              "n": "88"
+            },
+            "y": {
+              "d": "113",
+              "n": "880"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "43731",
+              "n": "1900"
+            },
+            "display": {
+              "delta": "-0.3",
+              "discrepancy": "≈ 0.04344744%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0%",
+              "target": "7.74",
+              "x": "17.5",
+              "y": "≈ 7.7433628319"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "50",
+              "n": "387"
+            },
+            "x": {
+              "d": "2",
+              "n": "35"
+            },
+            "y": {
+              "d": "113",
+              "n": "875"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "8701",
+              "n": "100"
+            },
+            "display": {
+              "delta": "-0.4",
+              "discrepancy": "≈ 0.0114929318%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0%",
+              "target": "7.7",
+              "x": "17.4",
+              "y": "≈ 7.6991150442"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "10",
+              "n": "77"
+            },
+            "x": {
+              "d": "5",
+              "n": "87"
+            },
+            "y": {
+              "d": "113",
+              "n": "870"
+            }
+          }
+        ],
+        "checked": 4,
+        "hitLimit": false,
+        "stop": "limit"
+      },
+      "initial": {
+        "discrepancy": {
+          "d": "22261",
+          "n": "1100"
+        },
+        "display": {
+          "delta": null,
+          "discrepancy": "≈ 0.049413773%",
+          "exactZero": false,
+          "roundedDiscrepancy": "0%",
+          "target": "7.88",
+          "x": "17.8",
+          "y": "≈ 7.8761061947"
+        },
+        "qualified": true,
+        "roundedDiscrepancy": {
+          "d": "1",
+          "n": "0"
+        },
+        "target": {
+          "d": "25",
+          "n": "197"
+        },
+        "x": {
+          "d": "5",
+          "n": "89"
+        },
+        "y": {
+          "d": "113",
+          "n": "890"
+        }
+      },
+      "input": {
+        "initialText": "17.8",
+        "maxSteps": 16,
+        "operation": 2,
+        "ratioText": "2.26",
+        "resultLimit": 4,
+        "targetDecimals": 2
+      },
+      "name": "random-03",
+      "settings": {
+        "d": 1,
+        "displayPlaces": 10,
+        "initialText": "17.8",
+        "maxSteps": 16,
+        "operation": 2,
+        "p": 0,
+        "ratioText": "2.26",
+        "resultLimit": 4,
+        "step": "0.1",
+        "targetDecimals": 2,
+        "targetMode": "custom",
+        "threshold": "0.5%"
+      },
+      "up": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "11187",
+              "n": "50"
+            },
+            "display": {
+              "delta": "+0.1",
+              "discrepancy": "≈ 0.0044694735%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0%",
+              "target": "7.92",
+              "x": "17.9",
+              "y": "≈ 7.9203539823"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "25",
+              "n": "198"
+            },
+            "x": {
+              "d": "10",
+              "n": "179"
+            },
+            "y": {
+              "d": "113",
+              "n": "895"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "22487",
+              "n": "1300"
+            },
+            "display": {
+              "delta": "+0.2",
+              "discrepancy": "≈ 0.0578111798%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0%",
+              "target": "7.96",
+              "x": "18.0",
+              "y": "≈ 7.9646017699"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "25",
+              "n": "199"
+            },
+            "x": {
+              "d": "1",
+              "n": "18"
+            },
+            "y": {
+              "d": "113",
+              "n": "900"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "90513",
+              "n": "1300"
+            },
+            "display": {
+              "delta": "+0.3",
+              "discrepancy": "≈ 0.0143625778%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0%",
+              "target": "8.01",
+              "x": "18.1",
+              "y": "≈ 8.0088495575"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "100",
+              "n": "801"
+            },
+            "x": {
+              "d": "10",
+              "n": "181"
+            },
+            "y": {
+              "d": "113",
+              "n": "905"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "2599",
+              "n": "100"
+            },
+            "display": {
+              "delta": "+0.4",
+              "discrepancy": "≈ 0.0384763371%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0%",
+              "target": "8.05",
+              "x": "18.2",
+              "y": "≈ 8.0530973451"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "20",
+              "n": "161"
+            },
+            "x": {
+              "d": "5",
+              "n": "91"
+            },
+            "y": {
+              "d": "113",
+              "n": "910"
+            }
+          }
+        ],
+        "checked": 4,
+        "hitLimit": false,
+        "stop": "limit"
+      }
+    },
+    {
+      "down": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "399943",
+              "n": "5700"
+            },
+            "display": {
+              "delta": "-1",
+              "discrepancy": "≈ 0.0142520309%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0%",
+              "target": "0.43",
+              "x": "4",
+              "y": "≈ 0.4300612837"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "100",
+              "n": "43"
+            },
+            "x": {
+              "d": "1",
+              "n": "4"
+            },
+            "y": {
+              "d": "9301",
+              "n": "4000"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "3004223",
+              "n": "422300"
+            },
+            "display": {
+              "delta": "-2",
+              "discrepancy": "≈ 0.1405687927%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0%",
+              "target": "0.323",
+              "x": "3",
+              "y": "≈ 0.3225459628"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1000",
+              "n": "323"
+            },
+            "x": {
+              "d": "1",
+              "n": "3"
+            },
+            "y": {
+              "d": "9301",
+              "n": "3000"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "399943",
+              "n": "5700"
+            },
+            "display": {
+              "delta": "-3",
+              "discrepancy": "≈ 0.0142520309%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0%",
+              "target": "0.215",
+              "x": "2",
+              "y": "≈ 0.2150306419"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "200",
+              "n": "43"
+            },
+            "x": {
+              "d": "1",
+              "n": "2"
+            },
+            "y": {
+              "d": "9301",
+              "n": "2000"
+            }
+          }
+        ],
+        "checked": 3,
+        "hitLimit": false,
+        "stop": "limit"
+      },
+      "initial": {
+        "discrepancy": {
+          "d": "2501969",
+          "n": "196900"
+        },
+        "display": {
+          "delta": null,
+          "discrepancy": "≈ 0.0786980174%",
+          "exactZero": false,
+          "roundedDiscrepancy": "0%",
+          "target": "0.538",
+          "x": "5",
+          "y": "≈ 0.5375766047"
+        },
+        "qualified": true,
+        "roundedDiscrepancy": {
+          "d": "1",
+          "n": "0"
+        },
+        "target": {
+          "d": "500",
+          "n": "269"
+        },
+        "x": {
+          "d": "1",
+          "n": "5"
+        },
+        "y": {
+          "d": "9301",
+          "n": "5000"
+        }
+      },
+      "input": {
+        "initialText": "5",
+        "maxSteps": 17,
+        "operation": 2,
+        "ratioText": "9.301",
+        "resultLimit": 3,
+        "targetDecimals": 3
+      },
+      "name": "random-04",
+      "settings": {
+        "d": 0,
+        "displayPlaces": 10,
+        "initialText": "5",
+        "maxSteps": 17,
+        "operation": 2,
+        "p": 0,
+        "ratioText": "9.301",
+        "resultLimit": 3,
+        "step": "1",
+        "targetDecimals": 3,
+        "targetMode": "custom",
+        "threshold": "0.5%"
+      },
+      "up": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "399943",
+              "n": "5700"
+            },
+            "display": {
+              "delta": "+1",
+              "discrepancy": "≈ 0.0142520309%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0%",
+              "target": "0.645",
+              "x": "6",
+              "y": "≈ 0.6450919256"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "200",
+              "n": "129"
+            },
+            "x": {
+              "d": "1",
+              "n": "6"
+            },
+            "y": {
+              "d": "9301",
+              "n": "6000"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "7003653",
+              "n": "365300"
+            },
+            "display": {
+              "delta": "+2",
+              "discrepancy": "≈ 0.052158495%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0%",
+              "target": "0.753",
+              "x": "7",
+              "y": "≈ 0.7526072465"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1000",
+              "n": "753"
+            },
+            "x": {
+              "d": "1",
+              "n": "7"
+            },
+            "y": {
+              "d": "9301",
+              "n": "7000"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "399943",
+              "n": "5700"
+            },
+            "display": {
+              "delta": "+3",
+              "discrepancy": "≈ 0.0142520309%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0%",
+              "target": "0.86",
+              "x": "8",
+              "y": "≈ 0.8601225675"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "50",
+              "n": "43"
+            },
+            "x": {
+              "d": "1",
+              "n": "8"
+            },
+            "y": {
+              "d": "9301",
+              "n": "8000"
+            }
+          }
+        ],
+        "checked": 3,
+        "hitLimit": false,
+        "stop": "limit"
+      }
+    },
+    {
+      "down": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "-0.1",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "7",
+              "x": "1.0",
+              "y": "7"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1",
+              "n": "7"
+            },
+            "x": {
+              "d": "1",
+              "n": "1"
+            },
+            "y": {
+              "d": "1",
+              "n": "7"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "-0.2",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "6.3",
+              "x": "0.9",
+              "y": "6.3"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "10",
+              "n": "63"
+            },
+            "x": {
+              "d": "10",
+              "n": "9"
+            },
+            "y": {
+              "d": "10",
+              "n": "63"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "-0.3",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "5.6",
+              "x": "0.8",
+              "y": "5.6"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "5",
+              "n": "28"
+            },
+            "x": {
+              "d": "5",
+              "n": "4"
+            },
+            "y": {
+              "d": "5",
+              "n": "28"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "-0.4",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "4.9",
+              "x": "0.7",
+              "y": "4.9"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "10",
+              "n": "49"
+            },
+            "x": {
+              "d": "10",
+              "n": "7"
+            },
+            "y": {
+              "d": "10",
+              "n": "49"
+            }
+          }
+        ],
+        "checked": 4,
+        "hitLimit": false,
+        "stop": "limit"
+      },
+      "initial": {
+        "discrepancy": {
+          "d": "1",
+          "n": "0"
+        },
+        "display": {
+          "delta": null,
+          "discrepancy": "0%",
+          "exactZero": true,
+          "roundedDiscrepancy": "0%",
+          "target": "7.7",
+          "x": "1.1",
+          "y": "7.7"
+        },
+        "qualified": true,
+        "roundedDiscrepancy": {
+          "d": "1",
+          "n": "0"
+        },
+        "target": {
+          "d": "10",
+          "n": "77"
+        },
+        "x": {
+          "d": "10",
+          "n": "11"
+        },
+        "y": {
+          "d": "10",
+          "n": "77"
+        }
+      },
+      "input": {
+        "initialText": "1.1",
+        "maxSteps": 77,
+        "operation": 1,
+        "ratioText": "7",
+        "resultLimit": 4,
+        "targetDecimals": 2
+      },
+      "name": "random-05",
+      "settings": {
+        "d": 1,
+        "displayPlaces": 10,
+        "initialText": "1.1",
+        "maxSteps": 77,
+        "operation": 1,
+        "p": 0,
+        "ratioText": "7",
+        "resultLimit": 4,
+        "step": "0.1",
+        "targetDecimals": 2,
+        "targetMode": "custom",
+        "threshold": "0.5%"
+      },
+      "up": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+0.1",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "8.4",
+              "x": "1.2",
+              "y": "8.4"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "5",
+              "n": "42"
+            },
+            "x": {
+              "d": "5",
+              "n": "6"
+            },
+            "y": {
+              "d": "5",
+              "n": "42"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+0.2",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "9.1",
+              "x": "1.3",
+              "y": "9.1"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "10",
+              "n": "91"
+            },
+            "x": {
+              "d": "10",
+              "n": "13"
+            },
+            "y": {
+              "d": "10",
+              "n": "91"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+0.3",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "9.8",
+              "x": "1.4",
+              "y": "9.8"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "5",
+              "n": "49"
+            },
+            "x": {
+              "d": "5",
+              "n": "7"
+            },
+            "y": {
+              "d": "5",
+              "n": "49"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+0.4",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "10.5",
+              "x": "1.5",
+              "y": "10.5"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "2",
+              "n": "21"
+            },
+            "x": {
+              "d": "2",
+              "n": "3"
+            },
+            "y": {
+              "d": "2",
+              "n": "21"
+            }
+          }
+        ],
+        "checked": 4,
+        "hitLimit": false,
+        "stop": "limit"
+      }
+    },
+    {
+      "down": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "-1",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "102",
+              "x": "17",
+              "y": "102"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1",
+              "n": "102"
+            },
+            "x": {
+              "d": "1",
+              "n": "17"
+            },
+            "y": {
+              "d": "1",
+              "n": "102"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "-2",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "96",
+              "x": "16",
+              "y": "96"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1",
+              "n": "96"
+            },
+            "x": {
+              "d": "1",
+              "n": "16"
+            },
+            "y": {
+              "d": "1",
+              "n": "96"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "-3",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "90",
+              "x": "15",
+              "y": "90"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1",
+              "n": "90"
+            },
+            "x": {
+              "d": "1",
+              "n": "15"
+            },
+            "y": {
+              "d": "1",
+              "n": "90"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "-4",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "84",
+              "x": "14",
+              "y": "84"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1",
+              "n": "84"
+            },
+            "x": {
+              "d": "1",
+              "n": "14"
+            },
+            "y": {
+              "d": "1",
+              "n": "84"
+            }
+          }
+        ],
+        "checked": 4,
+        "hitLimit": false,
+        "stop": "limit"
+      },
+      "initial": {
+        "discrepancy": {
+          "d": "1",
+          "n": "0"
+        },
+        "display": {
+          "delta": null,
+          "discrepancy": "0%",
+          "exactZero": true,
+          "roundedDiscrepancy": "0%",
+          "target": "108",
+          "x": "18",
+          "y": "108"
+        },
+        "qualified": true,
+        "roundedDiscrepancy": {
+          "d": "1",
+          "n": "0"
+        },
+        "target": {
+          "d": "1",
+          "n": "108"
+        },
+        "x": {
+          "d": "1",
+          "n": "18"
+        },
+        "y": {
+          "d": "1",
+          "n": "108"
+        }
+      },
+      "input": {
+        "initialText": "18",
+        "maxSteps": 80,
+        "operation": 1,
+        "ratioText": "6",
+        "resultLimit": 4,
+        "targetDecimals": null
+      },
+      "name": "random-06",
+      "settings": {
+        "d": 0,
+        "displayPlaces": 10,
+        "initialText": "18",
+        "maxSteps": 80,
+        "operation": 1,
+        "p": 0,
+        "ratioText": "6",
+        "resultLimit": 4,
+        "step": "1",
+        "targetDecimals": 0,
+        "targetMode": "auto",
+        "threshold": "0.5%"
+      },
+      "up": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+1",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "114",
+              "x": "19",
+              "y": "114"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1",
+              "n": "114"
+            },
+            "x": {
+              "d": "1",
+              "n": "19"
+            },
+            "y": {
+              "d": "1",
+              "n": "114"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+2",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "120",
+              "x": "20",
+              "y": "120"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1",
+              "n": "120"
+            },
+            "x": {
+              "d": "1",
+              "n": "20"
+            },
+            "y": {
+              "d": "1",
+              "n": "120"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+3",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "126",
+              "x": "21",
+              "y": "126"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1",
+              "n": "126"
+            },
+            "x": {
+              "d": "1",
+              "n": "21"
+            },
+            "y": {
+              "d": "1",
+              "n": "126"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+4",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "132",
+              "x": "22",
+              "y": "132"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1",
+              "n": "132"
+            },
+            "x": {
+              "d": "1",
+              "n": "22"
+            },
+            "y": {
+              "d": "1",
+              "n": "132"
+            }
+          }
+        ],
+        "checked": 4,
+        "hitLimit": false,
+        "stop": "limit"
+      }
+    },
+    {
+      "down": {
+        "candidates": [],
+        "checked": 10,
+        "hitLimit": true,
+        "stop": "safety"
+      },
+      "initial": {
+        "discrepancy": {
+          "d": "5681",
+          "n": "7400"
+        },
+        "display": {
+          "delta": null,
+          "discrepancy": "≈ 1.3025875726%",
+          "exactZero": false,
+          "roundedDiscrepancy": "1.30%",
+          "target": "0.23",
+          "x": "2.302",
+          "y": "≈ 0.2329959514"
+        },
+        "qualified": false,
+        "roundedDiscrepancy": {
+          "d": "10",
+          "n": "13"
+        },
+        "target": {
+          "d": "100",
+          "n": "23"
+        },
+        "x": {
+          "d": "500",
+          "n": "1151"
+        },
+        "y": {
+          "d": "4940",
+          "n": "1151"
+        }
+      },
+      "input": {
+        "initialText": "2.302",
+        "maxSteps": 10,
+        "operation": 2,
+        "ratioText": "9.88",
+        "resultLimit": 3,
+        "targetDecimals": 2
+      },
+      "name": "random-07",
+      "settings": {
+        "d": 3,
+        "displayPlaces": 10,
+        "initialText": "2.302",
+        "maxSteps": 10,
+        "operation": 2,
+        "p": 2,
+        "ratioText": "9.88",
+        "resultLimit": 3,
+        "step": "0.001",
+        "targetDecimals": 2,
+        "targetMode": "custom",
+        "threshold": "0.005%"
+      },
+      "up": {
+        "candidates": [],
+        "checked": 10,
+        "hitLimit": true,
+        "stop": "safety"
+      }
+    },
+    {
+      "down": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "-1",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "15",
+              "x": "3",
+              "y": "15"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1",
+              "n": "15"
+            },
+            "x": {
+              "d": "1",
+              "n": "3"
+            },
+            "y": {
+              "d": "1",
+              "n": "15"
+            }
+          }
+        ],
+        "checked": 1,
+        "hitLimit": false,
+        "stop": "limit"
+      },
+      "initial": {
+        "discrepancy": {
+          "d": "1",
+          "n": "0"
+        },
+        "display": {
+          "delta": null,
+          "discrepancy": "0%",
+          "exactZero": true,
+          "roundedDiscrepancy": "0%",
+          "target": "20",
+          "x": "4",
+          "y": "20"
+        },
+        "qualified": true,
+        "roundedDiscrepancy": {
+          "d": "1",
+          "n": "0"
+        },
+        "target": {
+          "d": "1",
+          "n": "20"
+        },
+        "x": {
+          "d": "1",
+          "n": "4"
+        },
+        "y": {
+          "d": "1",
+          "n": "20"
+        }
+      },
+      "input": {
+        "initialText": "4",
+        "maxSteps": 10,
+        "operation": 1,
+        "ratioText": "5",
+        "resultLimit": 1,
+        "targetDecimals": 2
+      },
+      "name": "random-08",
+      "settings": {
+        "d": 0,
+        "displayPlaces": 10,
+        "initialText": "4",
+        "maxSteps": 10,
+        "operation": 1,
+        "p": 0,
+        "ratioText": "5",
+        "resultLimit": 1,
+        "step": "1",
+        "targetDecimals": 2,
+        "targetMode": "custom",
+        "threshold": "0.5%"
+      },
+      "up": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+1",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "25",
+              "x": "5",
+              "y": "25"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1",
+              "n": "25"
+            },
+            "x": {
+              "d": "1",
+              "n": "5"
+            },
+            "y": {
+              "d": "1",
+              "n": "25"
+            }
+          }
+        ],
+        "checked": 1,
+        "hitLimit": false,
+        "stop": "limit"
+      }
+    },
+    {
+      "down": {
+        "candidates": [],
+        "checked": 40,
+        "hitLimit": true,
+        "stop": "safety"
+      },
+      "initial": {
+        "discrepancy": {
+          "d": "46",
+          "n": "25"
+        },
+        "display": {
+          "delta": null,
+          "discrepancy": "≈ 0.5434782609%",
+          "exactZero": false,
+          "roundedDiscrepancy": "0.543%",
+          "target": "1.4",
+          "x": "9.6075",
+          "y": "≈ 1.3923913043"
+        },
+        "qualified": false,
+        "roundedDiscrepancy": {
+          "d": "1000",
+          "n": "543"
+        },
+        "target": {
+          "d": "5",
+          "n": "7"
+        },
+        "x": {
+          "d": "400",
+          "n": "3843"
+        },
+        "y": {
+          "d": "920",
+          "n": "1281"
+        }
+      },
+      "input": {
+        "initialText": "9.6075",
+        "maxSteps": 40,
+        "operation": 2,
+        "ratioText": "6.9",
+        "resultLimit": 3,
+        "targetDecimals": 1
+      },
+      "name": "random-09",
+      "settings": {
+        "d": 4,
+        "displayPlaces": 10,
+        "initialText": "9.6075",
+        "maxSteps": 40,
+        "operation": 2,
+        "p": 3,
+        "ratioText": "6.9",
+        "resultLimit": 3,
+        "step": "0.0001",
+        "targetDecimals": 1,
+        "targetMode": "custom",
+        "threshold": "0.0005%"
+      },
+      "up": {
+        "candidates": [],
+        "checked": 40,
+        "hitLimit": true,
+        "stop": "safety"
+      }
+    },
+    {
+      "down": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "2200",
+              "n": "1"
+            },
+            "display": {
+              "delta": "-0.0007",
+              "discrepancy": "≈ 0.0004545455%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.000%",
+              "target": "52.8",
+              "x": "13.8948",
+              "y": "52.80024"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "5",
+              "n": "264"
+            },
+            "x": {
+              "d": "2500",
+              "n": "34737"
+            },
+            "y": {
+              "d": "12500",
+              "n": "660003"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "26400",
+              "n": "7"
+            },
+            "display": {
+              "delta": "-0.0008",
+              "discrepancy": "≈ 0.0002651515%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.000%",
+              "target": "52.8",
+              "x": "13.8947",
+              "y": "52.79986"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "5",
+              "n": "264"
+            },
+            "x": {
+              "d": "10000",
+              "n": "138947"
+            },
+            "y": {
+              "d": "50000",
+              "n": "2639993"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "26395",
+              "n": "1"
+            },
+            "display": {
+              "delta": "-0.0034",
+              "discrepancy": "≈ 0.000037886%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.000%",
+              "target": "52.79",
+              "x": "13.8921",
+              "y": "52.78998"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "100",
+              "n": "5279"
+            },
+            "x": {
+              "d": "10000",
+              "n": "138921"
+            },
+            "y": {
+              "d": "50000",
+              "n": "2639499"
+            }
+          }
+        ],
+        "checked": 34,
+        "hitLimit": false,
+        "stop": "limit"
+      },
+      "initial": {
+        "discrepancy": {
+          "d": "5280",
+          "n": "29"
+        },
+        "display": {
+          "delta": null,
+          "discrepancy": "≈ 0.0054924242%",
+          "exactZero": false,
+          "roundedDiscrepancy": "0.005%",
+          "target": "52.8",
+          "x": "13.8955",
+          "y": "52.8029"
+        },
+        "qualified": false,
+        "roundedDiscrepancy": {
+          "d": "200",
+          "n": "1"
+        },
+        "target": {
+          "d": "5",
+          "n": "264"
+        },
+        "x": {
+          "d": "2000",
+          "n": "27791"
+        },
+        "y": {
+          "d": "10000",
+          "n": "528029"
+        }
+      },
+      "input": {
+        "initialText": "13.8955",
+        "maxSteps": 64,
+        "operation": 1,
+        "ratioText": "3.8",
+        "resultLimit": 3,
+        "targetDecimals": 2
+      },
+      "name": "random-10",
+      "settings": {
+        "d": 4,
+        "displayPlaces": 10,
+        "initialText": "13.8955",
+        "maxSteps": 64,
+        "operation": 1,
+        "p": 3,
+        "ratioText": "3.8",
+        "resultLimit": 3,
+        "step": "0.0001",
+        "targetDecimals": 2,
+        "targetMode": "custom",
+        "threshold": "0.0005%"
+      },
+      "up": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "26405",
+              "n": "13"
+            },
+            "display": {
+              "delta": "+0.0018",
+              "discrepancy": "≈ 0.000492331%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.000%",
+              "target": "52.81",
+              "x": "13.8973",
+              "y": "52.80974"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "100",
+              "n": "5281"
+            },
+            "x": {
+              "d": "10000",
+              "n": "138973"
+            },
+            "y": {
+              "d": "50000",
+              "n": "2640487"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "26405",
+              "n": "6"
+            },
+            "display": {
+              "delta": "+0.0019",
+              "discrepancy": "≈ 0.0002272297%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.000%",
+              "target": "52.81",
+              "x": "13.8974",
+              "y": "52.81012"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "100",
+              "n": "5281"
+            },
+            "x": {
+              "d": "5000",
+              "n": "69487"
+            },
+            "y": {
+              "d": "25000",
+              "n": "1320253"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+0.0045",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0.000%",
+              "target": "52.82",
+              "x": "13.9000",
+              "y": "52.82"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "50",
+              "n": "2641"
+            },
+            "x": {
+              "d": "10",
+              "n": "139"
+            },
+            "y": {
+              "d": "50",
+              "n": "2641"
+            }
+          }
+        ],
+        "checked": 45,
+        "hitLimit": false,
+        "stop": "limit"
+      }
+    },
+    {
+      "down": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "-0.1",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "5.2947",
+              "x": "0.9",
+              "y": "5.2947"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "10000",
+              "n": "52947"
+            },
+            "x": {
+              "d": "10",
+              "n": "9"
+            },
+            "y": {
+              "d": "10000",
+              "n": "52947"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "-0.2",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "4.7064",
+              "x": "0.8",
+              "y": "4.7064"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1250",
+              "n": "5883"
+            },
+            "x": {
+              "d": "5",
+              "n": "4"
+            },
+            "y": {
+              "d": "1250",
+              "n": "5883"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "-0.3",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "4.1181",
+              "x": "0.7",
+              "y": "4.1181"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "10000",
+              "n": "41181"
+            },
+            "x": {
+              "d": "10",
+              "n": "7"
+            },
+            "y": {
+              "d": "10000",
+              "n": "41181"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "-0.4",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "3.5298",
+              "x": "0.6",
+              "y": "3.5298"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "5000",
+              "n": "17649"
+            },
+            "x": {
+              "d": "5",
+              "n": "3"
+            },
+            "y": {
+              "d": "5000",
+              "n": "17649"
+            }
+          }
+        ],
+        "checked": 4,
+        "hitLimit": false,
+        "stop": "limit"
+      },
+      "initial": {
+        "discrepancy": {
+          "d": "1",
+          "n": "0"
+        },
+        "display": {
+          "delta": null,
+          "discrepancy": "0%",
+          "exactZero": true,
+          "roundedDiscrepancy": "0%",
+          "target": "5.883",
+          "x": "1.0",
+          "y": "5.883"
+        },
+        "qualified": true,
+        "roundedDiscrepancy": {
+          "d": "1",
+          "n": "0"
+        },
+        "target": {
+          "d": "1000",
+          "n": "5883"
+        },
+        "x": {
+          "d": "1",
+          "n": "1"
+        },
+        "y": {
+          "d": "1000",
+          "n": "5883"
+        }
+      },
+      "input": {
+        "initialText": "1.0",
+        "maxSteps": 67,
+        "operation": 1,
+        "ratioText": "5.883",
+        "resultLimit": 4,
+        "targetDecimals": 4
+      },
+      "name": "random-11",
+      "settings": {
+        "d": 1,
+        "displayPlaces": 10,
+        "initialText": "1.0",
+        "maxSteps": 67,
+        "operation": 1,
+        "p": 0,
+        "ratioText": "5.883",
+        "resultLimit": 4,
+        "step": "0.1",
+        "targetDecimals": 4,
+        "targetMode": "custom",
+        "threshold": "0.5%"
+      },
+      "up": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+0.1",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "6.4713",
+              "x": "1.1",
+              "y": "6.4713"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "10000",
+              "n": "64713"
+            },
+            "x": {
+              "d": "10",
+              "n": "11"
+            },
+            "y": {
+              "d": "10000",
+              "n": "64713"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+0.2",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "7.0596",
+              "x": "1.2",
+              "y": "7.0596"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "2500",
+              "n": "17649"
+            },
+            "x": {
+              "d": "5",
+              "n": "6"
+            },
+            "y": {
+              "d": "2500",
+              "n": "17649"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+0.3",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "7.6479",
+              "x": "1.3",
+              "y": "7.6479"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "10000",
+              "n": "76479"
+            },
+            "x": {
+              "d": "10",
+              "n": "13"
+            },
+            "y": {
+              "d": "10000",
+              "n": "76479"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+0.4",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0%",
+              "target": "8.2362",
+              "x": "1.4",
+              "y": "8.2362"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "5000",
+              "n": "41181"
+            },
+            "x": {
+              "d": "5",
+              "n": "7"
+            },
+            "y": {
+              "d": "5000",
+              "n": "41181"
+            }
+          }
+        ],
+        "checked": 4,
+        "hitLimit": false,
+        "stop": "limit"
+      }
+    },
+    {
+      "down": {
+        "candidates": [],
+        "checked": 16,
+        "hitLimit": true,
+        "stop": "safety"
+      },
+      "initial": {
+        "discrepancy": {
+          "d": "525",
+          "n": "239"
+        },
+        "display": {
+          "delta": null,
+          "discrepancy": "≈ 0.4552380952%",
+          "exactZero": false,
+          "roundedDiscrepancy": "0.455%",
+          "target": "0.75",
+          "x": "5.2739",
+          "y": "≈ 0.7534142857"
+        },
+        "qualified": false,
+        "roundedDiscrepancy": {
+          "d": "200",
+          "n": "91"
+        },
+        "target": {
+          "d": "4",
+          "n": "3"
+        },
+        "x": {
+          "d": "10000",
+          "n": "52739"
+        },
+        "y": {
+          "d": "70000",
+          "n": "52739"
+        }
+      },
+      "input": {
+        "initialText": "5.2739",
+        "maxSteps": 16,
+        "operation": 2,
+        "ratioText": "7",
+        "resultLimit": 2,
+        "targetDecimals": 2
+      },
+      "name": "random-12",
+      "settings": {
+        "d": 4,
+        "displayPlaces": 10,
+        "initialText": "5.2739",
+        "maxSteps": 16,
+        "operation": 2,
+        "p": 3,
+        "ratioText": "7",
+        "resultLimit": 2,
+        "step": "0.0001",
+        "targetDecimals": 2,
+        "targetMode": "custom",
+        "threshold": "0.0005%"
+      },
+      "up": {
+        "candidates": [],
+        "checked": 16,
+        "hitLimit": true,
+        "stop": "safety"
+      }
+    },
+    {
+      "down": {
+        "candidates": [],
+        "checked": 13,
+        "hitLimit": true,
+        "stop": "safety"
+      },
+      "initial": {
+        "discrepancy": {
+          "d": "5057",
+          "n": "191950"
+        },
+        "display": {
+          "delta": null,
+          "discrepancy": "≈ 37.957286929%",
+          "exactZero": false,
+          "roundedDiscrepancy": "38.0%",
+          "target": "1",
+          "x": "2.51",
+          "y": "≈ 0.6204271307"
+        },
+        "qualified": false,
+        "roundedDiscrepancy": {
+          "d": "1",
+          "n": "38"
+        },
+        "target": {
+          "d": "1",
+          "n": "1"
+        },
+        "x": {
+          "d": "100",
+          "n": "251"
+        },
+        "y": {
+          "d": "10114",
+          "n": "6275"
+        }
+      },
+      "input": {
+        "initialText": "2.51",
+        "maxSteps": 13,
+        "operation": 2,
+        "ratioText": "4.0456",
+        "resultLimit": 1,
+        "targetDecimals": 0
+      },
+      "name": "random-13",
+      "settings": {
+        "d": 2,
+        "displayPlaces": 10,
+        "initialText": "2.51",
+        "maxSteps": 13,
+        "operation": 2,
+        "p": 1,
+        "ratioText": "4.0456",
+        "resultLimit": 1,
+        "step": "0.01",
+        "targetDecimals": 0,
+        "targetMode": "custom",
+        "threshold": "0.05%"
+      },
+      "up": {
+        "candidates": [],
+        "checked": 13,
+        "hitLimit": true,
+        "stop": "safety"
+      }
+    },
+    {
+      "down": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "577",
+              "n": "1"
+            },
+            "display": {
+              "delta": "-0.1",
+              "discrepancy": "≈ 0.0017331023%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0%",
+              "target": "34.62",
+              "x": "16.2",
+              "y": "34.6194"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "50",
+              "n": "1731"
+            },
+            "x": {
+              "d": "5",
+              "n": "81"
+            },
+            "y": {
+              "d": "5000",
+              "n": "173097"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "3441",
+              "n": "43"
+            },
+            "display": {
+              "delta": "-0.2",
+              "discrepancy": "≈ 0.0124963673%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0%",
+              "target": "34.41",
+              "x": "16.1",
+              "y": "34.4057"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "100",
+              "n": "3441"
+            },
+            "x": {
+              "d": "10",
+              "n": "161"
+            },
+            "y": {
+              "d": "10000",
+              "n": "344057"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "3419",
+              "n": "20"
+            },
+            "display": {
+              "delta": "-0.3",
+              "discrepancy": "≈ 0.0058496636%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0%",
+              "target": "34.19",
+              "x": "16.0",
+              "y": "34.192"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "100",
+              "n": "3419"
+            },
+            "x": {
+              "d": "1",
+              "n": "16"
+            },
+            "y": {
+              "d": "125",
+              "n": "4274"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "3398",
+              "n": "17"
+            },
+            "display": {
+              "delta": "-0.4",
+              "discrepancy": "≈ 0.0050029429%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0%",
+              "target": "33.98",
+              "x": "15.9",
+              "y": "33.9783"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "50",
+              "n": "1699"
+            },
+            "x": {
+              "d": "10",
+              "n": "159"
+            },
+            "y": {
+              "d": "10000",
+              "n": "339783"
+            }
+          }
+        ],
+        "checked": 4,
+        "hitLimit": false,
+        "stop": "limit"
+      },
+      "initial": {
+        "discrepancy": {
+          "d": "3483",
+          "n": "31"
+        },
+        "display": {
+          "delta": null,
+          "discrepancy": "≈ 0.0089003732%",
+          "exactZero": false,
+          "roundedDiscrepancy": "0%",
+          "target": "34.83",
+          "x": "16.3",
+          "y": "34.8331"
+        },
+        "qualified": true,
+        "roundedDiscrepancy": {
+          "d": "1",
+          "n": "0"
+        },
+        "target": {
+          "d": "100",
+          "n": "3483"
+        },
+        "x": {
+          "d": "10",
+          "n": "163"
+        },
+        "y": {
+          "d": "10000",
+          "n": "348331"
+        }
+      },
+      "input": {
+        "initialText": "16.3",
+        "maxSteps": 23,
+        "operation": 1,
+        "ratioText": "2.137",
+        "resultLimit": 4,
+        "targetDecimals": 2
+      },
+      "name": "random-14",
+      "settings": {
+        "d": 1,
+        "displayPlaces": 10,
+        "initialText": "16.3",
+        "maxSteps": 23,
+        "operation": 1,
+        "p": 0,
+        "ratioText": "2.137",
+        "resultLimit": 4,
+        "step": "0.1",
+        "targetDecimals": 2,
+        "targetMode": "custom",
+        "threshold": "0.5%"
+      },
+      "up": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "3505",
+              "n": "32"
+            },
+            "display": {
+              "delta": "+0.1",
+              "discrepancy": "≈ 0.0091298146%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0%",
+              "target": "35.05",
+              "x": "16.4",
+              "y": "35.0468"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "20",
+              "n": "701"
+            },
+            "x": {
+              "d": "5",
+              "n": "82"
+            },
+            "y": {
+              "d": "2500",
+              "n": "87617"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "3526",
+              "n": "5"
+            },
+            "display": {
+              "delta": "+0.2",
+              "discrepancy": "≈ 0.0014180374%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0%",
+              "target": "35.26",
+              "x": "16.5",
+              "y": "35.2605"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "50",
+              "n": "1763"
+            },
+            "x": {
+              "d": "2",
+              "n": "33"
+            },
+            "y": {
+              "d": "2000",
+              "n": "70521"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "3547",
+              "n": "42"
+            },
+            "display": {
+              "delta": "+0.3",
+              "discrepancy": "≈ 0.0118409924%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0%",
+              "target": "35.47",
+              "x": "16.6",
+              "y": "35.4742"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "100",
+              "n": "3547"
+            },
+            "x": {
+              "d": "5",
+              "n": "83"
+            },
+            "y": {
+              "d": "5000",
+              "n": "177371"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "3569",
+              "n": "21"
+            },
+            "display": {
+              "delta": "+0.4",
+              "discrepancy": "≈ 0.0058840011%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0%",
+              "target": "35.69",
+              "x": "16.7",
+              "y": "35.6879"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "100",
+              "n": "3569"
+            },
+            "x": {
+              "d": "10",
+              "n": "167"
+            },
+            "y": {
+              "d": "10000",
+              "n": "356879"
+            }
+          }
+        ],
+        "checked": 4,
+        "hitLimit": false,
+        "stop": "limit"
+      }
+    },
+    {
+      "down": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "83025",
+              "n": "322"
+            },
+            "display": {
+              "delta": "-0.01",
+              "discrepancy": "≈ 0.0038783499%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.0%",
+              "target": "33.21",
+              "x": "6.64",
+              "y": "33.211288"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "100",
+              "n": "3321"
+            },
+            "x": {
+              "d": "25",
+              "n": "166"
+            },
+            "y": {
+              "d": "125000",
+              "n": "4151411"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "331600",
+              "n": "1271"
+            },
+            "display": {
+              "delta": "-0.02",
+              "discrepancy": "≈ 0.0038329312%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.0%",
+              "target": "33.16",
+              "x": "6.63",
+              "y": "33.161271"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "25",
+              "n": "829"
+            },
+            "x": {
+              "d": "100",
+              "n": "663"
+            },
+            "y": {
+              "d": "1000000",
+              "n": "33161271"
+            }
+          }
+        ],
+        "checked": 2,
+        "hitLimit": false,
+        "stop": "limit"
+      },
+      "initial": {
+        "discrepancy": {
+          "d": "66520",
+          "n": "261"
+        },
+        "display": {
+          "delta": null,
+          "discrepancy": "≈ 0.003923632%",
+          "exactZero": false,
+          "roundedDiscrepancy": "0.0%",
+          "target": "33.26",
+          "x": "6.65",
+          "y": "33.261305"
+        },
+        "qualified": true,
+        "roundedDiscrepancy": {
+          "d": "1",
+          "n": "0"
+        },
+        "target": {
+          "d": "50",
+          "n": "1663"
+        },
+        "x": {
+          "d": "20",
+          "n": "133"
+        },
+        "y": {
+          "d": "200000",
+          "n": "6652261"
+        }
+      },
+      "input": {
+        "initialText": "6.65",
+        "maxSteps": 65,
+        "operation": 1,
+        "ratioText": "5.0017",
+        "resultLimit": 2,
+        "targetDecimals": null
+      },
+      "name": "random-15",
+      "settings": {
+        "d": 2,
+        "displayPlaces": 10,
+        "initialText": "6.65",
+        "maxSteps": 65,
+        "operation": 1,
+        "p": 1,
+        "ratioText": "5.0017",
+        "resultLimit": 2,
+        "step": "0.01",
+        "targetDecimals": 2,
+        "targetMode": "auto",
+        "threshold": "0.05%"
+      },
+      "up": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "166550",
+              "n": "661"
+            },
+            "display": {
+              "delta": "+0.01",
+              "discrepancy": "≈ 0.0039687781%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.0%",
+              "target": "33.31",
+              "x": "6.66",
+              "y": "33.311322"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "100",
+              "n": "3331"
+            },
+            "x": {
+              "d": "50",
+              "n": "333"
+            },
+            "y": {
+              "d": "500000",
+              "n": "16655661"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "333600",
+              "n": "1339"
+            },
+            "display": {
+              "delta": "+0.02",
+              "discrepancy": "≈ 0.004013789%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.0%",
+              "target": "33.36",
+              "x": "6.67",
+              "y": "33.361339"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "25",
+              "n": "834"
+            },
+            "x": {
+              "d": "100",
+              "n": "667"
+            },
+            "y": {
+              "d": "1000000",
+              "n": "33361339"
+            }
+          }
+        ],
+        "checked": 2,
+        "hitLimit": false,
+        "stop": "limit"
+      }
+    },
+    {
+      "down": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "-0.01",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0.0%",
+              "target": "44.954",
+              "x": "6.76",
+              "y": "44.954"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "500",
+              "n": "22477"
+            },
+            "x": {
+              "d": "25",
+              "n": "169"
+            },
+            "y": {
+              "d": "500",
+              "n": "22477"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "22444",
+              "n": "25"
+            },
+            "display": {
+              "delta": "-0.02",
+              "discrepancy": "≈ 0.0011138834%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.0%",
+              "target": "44.888",
+              "x": "6.75",
+              "y": "44.8875"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "125",
+              "n": "5611"
+            },
+            "x": {
+              "d": "4",
+              "n": "27"
+            },
+            "y": {
+              "d": "80",
+              "n": "3591"
+            }
+          }
+        ],
+        "checked": 2,
+        "hitLimit": false,
+        "stop": "limit"
+      },
+      "initial": {
+        "discrepancy": {
+          "d": "45021",
+          "n": "50"
+        },
+        "display": {
+          "delta": null,
+          "discrepancy": "≈ 0.0011105928%",
+          "exactZero": false,
+          "roundedDiscrepancy": "0.0%",
+          "target": "45.021",
+          "x": "6.77",
+          "y": "45.0205"
+        },
+        "qualified": true,
+        "roundedDiscrepancy": {
+          "d": "1",
+          "n": "0"
+        },
+        "target": {
+          "d": "1000",
+          "n": "45021"
+        },
+        "x": {
+          "d": "100",
+          "n": "677"
+        },
+        "y": {
+          "d": "2000",
+          "n": "90041"
+        }
+      },
+      "input": {
+        "initialText": "6.77",
+        "maxSteps": 74,
+        "operation": 1,
+        "ratioText": "6.650",
+        "resultLimit": 2,
+        "targetDecimals": 3
+      },
+      "name": "random-16",
+      "settings": {
+        "d": 2,
+        "displayPlaces": 10,
+        "initialText": "6.77",
+        "maxSteps": 74,
+        "operation": 1,
+        "p": 1,
+        "ratioText": "6.650",
+        "resultLimit": 2,
+        "step": "0.01",
+        "targetDecimals": 3,
+        "targetMode": "custom",
+        "threshold": "0.05%"
+      },
+      "up": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "display": {
+              "delta": "+0.01",
+              "discrepancy": "0%",
+              "exactZero": true,
+              "roundedDiscrepancy": "0.0%",
+              "target": "45.087",
+              "x": "6.78",
+              "y": "45.087"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1000",
+              "n": "45087"
+            },
+            "x": {
+              "d": "50",
+              "n": "339"
+            },
+            "y": {
+              "d": "1000",
+              "n": "45087"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "22577",
+              "n": "25"
+            },
+            "display": {
+              "delta": "+0.02",
+              "discrepancy": "≈ 0.0011073216%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.0%",
+              "target": "45.154",
+              "x": "6.79",
+              "y": "45.1535"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "500",
+              "n": "22577"
+            },
+            "x": {
+              "d": "100",
+              "n": "679"
+            },
+            "y": {
+              "d": "2000",
+              "n": "90307"
+            }
+          }
+        ],
+        "checked": 2,
+        "hitLimit": false,
+        "stop": "limit"
+      }
+    },
+    {
+      "down": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "111900",
+              "n": "1393"
+            },
+            "display": {
+              "delta": "-0.1",
+              "discrepancy": "≈ 0.0124486148%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0%",
+              "target": "111.9",
+              "x": "13.7",
+              "y": "111.91393"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "10",
+              "n": "1119"
+            },
+            "x": {
+              "d": "10",
+              "n": "137"
+            },
+            "y": {
+              "d": "100000",
+              "n": "11191393"
+            }
+          }
+        ],
+        "checked": 1,
+        "hitLimit": false,
+        "stop": "limit"
+      },
+      "initial": {
+        "discrepancy": {
+          "d": "2450",
+          "n": "67"
+        },
+        "display": {
+          "delta": null,
+          "discrepancy": "≈ 0.0273469388%",
+          "exactZero": false,
+          "roundedDiscrepancy": "0%",
+          "target": "112.7",
+          "x": "13.8",
+          "y": "112.73082"
+        },
+        "qualified": true,
+        "roundedDiscrepancy": {
+          "d": "1",
+          "n": "0"
+        },
+        "target": {
+          "d": "10",
+          "n": "1127"
+        },
+        "x": {
+          "d": "5",
+          "n": "69"
+        },
+        "y": {
+          "d": "50000",
+          "n": "5636541"
+        }
+      },
+      "input": {
+        "initialText": "13.8",
+        "maxSteps": 28,
+        "operation": 1,
+        "ratioText": "8.1689",
+        "resultLimit": 1,
+        "targetDecimals": null
+      },
+      "name": "random-17",
+      "settings": {
+        "d": 1,
+        "displayPlaces": 10,
+        "initialText": "13.8",
+        "maxSteps": 28,
+        "operation": 1,
+        "p": 0,
+        "ratioText": "8.1689",
+        "resultLimit": 1,
+        "step": "0.1",
+        "targetDecimals": 1,
+        "targetMode": "auto",
+        "threshold": "0.5%"
+      },
+      "up": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "113500",
+              "n": "4771"
+            },
+            "display": {
+              "delta": "+0.1",
+              "discrepancy": "≈ 0.0420352423%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0%",
+              "target": "113.5",
+              "x": "13.9",
+              "y": "113.54771"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "2",
+              "n": "227"
+            },
+            "x": {
+              "d": "10",
+              "n": "139"
+            },
+            "y": {
+              "d": "100000",
+              "n": "11354771"
+            }
+          }
+        ],
+        "checked": 1,
+        "hitLimit": false,
+        "stop": "limit"
+      }
+    },
+    {
+      "down": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "375961",
+              "n": "150"
+            },
+            "display": {
+              "delta": "-0.0003",
+              "discrepancy": "≈ 0.0003989776%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.000%",
+              "target": "3.8072",
+              "x": "15.0385",
+              "y": "≈ 3.8072151899"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1250",
+              "n": "4759"
+            },
+            "x": {
+              "d": "2000",
+              "n": "30077"
+            },
+            "y": {
+              "d": "7900",
+              "n": "30077"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "375961",
+              "n": "100"
+            },
+            "display": {
+              "delta": "-0.0004",
+              "discrepancy": "≈ 0.000265985%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.000%",
+              "target": "3.8072",
+              "x": "15.0384",
+              "y": "≈ 3.8071898734"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1250",
+              "n": "4759"
+            },
+            "x": {
+              "d": "625",
+              "n": "9399"
+            },
+            "y": {
+              "d": "9875",
+              "n": "37596"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "273419",
+              "n": "100"
+            },
+            "display": {
+              "delta": "-0.0007",
+              "discrepancy": "≈ 0.000365739%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.000%",
+              "target": "3.8071",
+              "x": "15.0381",
+              "y": "≈ 3.8071139241"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "10000",
+              "n": "38071"
+            },
+            "x": {
+              "d": "10000",
+              "n": "150381"
+            },
+            "y": {
+              "d": "39500",
+              "n": "150381"
+            }
+          }
+        ],
+        "checked": 7,
+        "hitLimit": false,
+        "stop": "limit"
+      },
+      "initial": {
+        "discrepancy": {
+          "d": "429681",
+          "n": "100"
+        },
+        "display": {
+          "delta": null,
+          "discrepancy": "≈ 0.0002327308%",
+          "exactZero": false,
+          "roundedDiscrepancy": "0.000%",
+          "target": "3.8073",
+          "x": "15.0388",
+          "y": "≈ 3.8072911392"
+        },
+        "qualified": true,
+        "roundedDiscrepancy": {
+          "d": "1",
+          "n": "0"
+        },
+        "target": {
+          "d": "10000",
+          "n": "38073"
+        },
+        "x": {
+          "d": "2500",
+          "n": "37597"
+        },
+        "y": {
+          "d": "9875",
+          "n": "37597"
+        }
+      },
+      "input": {
+        "initialText": "15.0388",
+        "maxSteps": 27,
+        "operation": 2,
+        "ratioText": "3.95",
+        "resultLimit": 3,
+        "targetDecimals": 4
+      },
+      "name": "random-18",
+      "settings": {
+        "d": 4,
+        "displayPlaces": 10,
+        "initialText": "15.0388",
+        "maxSteps": 27,
+        "operation": 2,
+        "p": 3,
+        "ratioText": "3.95",
+        "resultLimit": 3,
+        "step": "0.0001",
+        "targetDecimals": 4,
+        "targetMode": "custom",
+        "threshold": "0.0005%"
+      },
+      "up": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "3007767",
+              "n": "1300"
+            },
+            "display": {
+              "delta": "+0.0001",
+              "discrepancy": "≈ 0.0004322143%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.000%",
+              "target": "3.8073",
+              "x": "15.0389",
+              "y": "≈ 3.8073164557"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "10000",
+              "n": "38073"
+            },
+            "x": {
+              "d": "10000",
+              "n": "150389"
+            },
+            "y": {
+              "d": "39500",
+              "n": "150389"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1503923",
+              "n": "300"
+            },
+            "display": {
+              "delta": "+0.0004",
+              "discrepancy": "≈ 0.0001994783%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.000%",
+              "target": "3.8074",
+              "x": "15.0392",
+              "y": "≈ 3.8073924051"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "5000",
+              "n": "19037"
+            },
+            "x": {
+              "d": "1250",
+              "n": "18799"
+            },
+            "y": {
+              "d": "9875",
+              "n": "37598"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "1503923",
+              "n": "700"
+            },
+            "display": {
+              "delta": "+0.0005",
+              "discrepancy": "≈ 0.0004654494%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.000%",
+              "target": "3.8074",
+              "x": "15.0393",
+              "y": "≈ 3.8074177215"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "5000",
+              "n": "19037"
+            },
+            "x": {
+              "d": "10000",
+              "n": "150393"
+            },
+            "y": {
+              "d": "39500",
+              "n": "150393"
+            }
+          }
+        ],
+        "checked": 5,
+        "hitLimit": false,
+        "stop": "limit"
+      }
+    },
+    {
+      "down": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "6004349",
+              "n": "100"
+            },
+            "display": {
+              "delta": "-0.0001",
+              "discrepancy": "≈ 0.0000166546%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.000%",
+              "target": "2.7169",
+              "x": "12.0087",
+              "y": "≈ 2.7169004525"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "10000",
+              "n": "27169"
+            },
+            "x": {
+              "d": "10000",
+              "n": "120087"
+            },
+            "y": {
+              "d": "44200",
+              "n": "120087"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "750516",
+              "n": "275"
+            },
+            "display": {
+              "delta": "-0.0005",
+              "discrepancy": "≈ 0.0003664146%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.000%",
+              "target": "2.7168",
+              "x": "12.0083",
+              "y": "≈ 2.7168099548"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "625",
+              "n": "1698"
+            },
+            "x": {
+              "d": "10000",
+              "n": "120083"
+            },
+            "y": {
+              "d": "44200",
+              "n": "120083"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "375258",
+              "n": "175"
+            },
+            "display": {
+              "delta": "-0.0006",
+              "discrepancy": "≈ 0.0004663458%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.000%",
+              "target": "2.7168",
+              "x": "12.0082",
+              "y": "≈ 2.7167873303"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "625",
+              "n": "1698"
+            },
+            "x": {
+              "d": "5000",
+              "n": "60041"
+            },
+            "y": {
+              "d": "22100",
+              "n": "60041"
+            }
+          }
+        ],
+        "checked": 6,
+        "hitLimit": false,
+        "stop": "limit"
+      },
+      "initial": {
+        "discrepancy": {
+          "d": "353197",
+          "n": "300"
+        },
+        "display": {
+          "delta": null,
+          "discrepancy": "≈ 0.0008493843%",
+          "exactZero": false,
+          "roundedDiscrepancy": "0.001%",
+          "target": "2.7169",
+          "x": "12.0088",
+          "y": "≈ 2.7169230769"
+        },
+        "qualified": false,
+        "roundedDiscrepancy": {
+          "d": "1000",
+          "n": "1"
+        },
+        "target": {
+          "d": "10000",
+          "n": "27169"
+        },
+        "x": {
+          "d": "1250",
+          "n": "15011"
+        },
+        "y": {
+          "d": "325",
+          "n": "883"
+        }
+      },
+      "input": {
+        "initialText": "12.0088",
+        "maxSteps": 50,
+        "operation": 2,
+        "ratioText": "4.42",
+        "resultLimit": 3,
+        "targetDecimals": 4
+      },
+      "name": "random-19",
+      "settings": {
+        "d": 4,
+        "displayPlaces": 10,
+        "initialText": "12.0088",
+        "maxSteps": 50,
+        "operation": 2,
+        "p": 3,
+        "ratioText": "4.42",
+        "resultLimit": 3,
+        "step": "0.0001",
+        "targetDecimals": 4,
+        "targetMode": "custom",
+        "threshold": "0.0005%"
+      },
+      "up": {
+        "candidates": [
+          {
+            "discrepancy": {
+              "d": "600457",
+              "n": "200"
+            },
+            "display": {
+              "delta": "+0.0003",
+              "discrepancy": "≈ 0.0003330796%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.000%",
+              "target": "2.717",
+              "x": "12.0091",
+              "y": "≈ 2.7169909502"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1000",
+              "n": "2717"
+            },
+            "x": {
+              "d": "10000",
+              "n": "120091"
+            },
+            "y": {
+              "d": "44200",
+              "n": "120091"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "600457",
+              "n": "300"
+            },
+            "display": {
+              "delta": "+0.0004",
+              "discrepancy": "≈ 0.0004996195%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.000%",
+              "target": "2.717",
+              "x": "12.0092",
+              "y": "≈ 2.7170135747"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "1000",
+              "n": "2717"
+            },
+            "x": {
+              "d": "2500",
+              "n": "30023"
+            },
+            "y": {
+              "d": "11050",
+              "n": "30023"
+            }
+          },
+          {
+            "discrepancy": {
+              "d": "667199",
+              "n": "100"
+            },
+            "display": {
+              "delta": "+0.0008",
+              "discrepancy": "≈ 0.0001498803%",
+              "exactZero": false,
+              "roundedDiscrepancy": "0.000%",
+              "target": "2.7171",
+              "x": "12.0096",
+              "y": "≈ 2.7171040724"
+            },
+            "qualified": true,
+            "roundedDiscrepancy": {
+              "d": "1",
+              "n": "0"
+            },
+            "target": {
+              "d": "10000",
+              "n": "27171"
+            },
+            "x": {
+              "d": "625",
+              "n": "7506"
+            },
+            "y": {
+              "d": "5525",
+              "n": "15012"
+            }
+          }
+        ],
+        "checked": 8,
+        "hitLimit": false,
+        "stop": "limit"
+      }
+    }
+  ],
+  "evaluations": [
+    {
+      "d": 3,
+      "evaluation": {
+        "discrepancy": {
+          "d": "10000",
+          "n": "49"
+        },
+        "display": {
+          "delta": null,
+          "discrepancy": "0.0049%",
+          "exactZero": false,
+          "roundedDiscrepancy": "0.00%",
+          "target": "0.5",
+          "x": "0.500",
+          "y": "0.5000245"
+        },
+        "qualified": true,
+        "roundedDiscrepancy": {
+          "d": "1",
+          "n": "0"
+        },
+        "target": {
+          "d": "2",
+          "n": "1"
+        },
+        "x": {
+          "d": "2000000",
+          "n": "1000049"
+        },
+        "y": {
+          "d": "2000000",
+          "n": "1000049"
+        }
+      },
+      "name": "p2-below",
+      "operation": 1,
+      "ratioText": "1",
+      "targetDecimals": 3,
+      "xText": "0.5000245"
+    },
+    {
+      "d": 3,
+      "evaluation": {
+        "discrepancy": {
+          "d": "200",
+          "n": "1"
+        },
+        "display": {
+          "delta": null,
+          "discrepancy": "0.005%",
+          "exactZero": false,
+          "roundedDiscrepancy": "0.01%",
+          "target": "0.5",
+          "x": "0.500",
+          "y": "0.500025"
+        },
+        "qualified": false,
+        "roundedDiscrepancy": {
+          "d": "100",
+          "n": "1"
+        },
+        "target": {
+          "d": "2",
+          "n": "1"
+        },
+        "x": {
+          "d": "40000",
+          "n": "20001"
+        },
+        "y": {
+          "d": "40000",
+          "n": "20001"
+        }
+      },
+      "name": "p2-boundary",
+      "operation": 1,
+      "ratioText": "1",
+      "targetDecimals": 3,
+      "xText": "0.500025"
+    },
+    {
+      "d": 3,
+      "evaluation": {
+        "discrepancy": {
+          "d": "50000",
+          "n": "251"
+        },
+        "display": {
+          "delta": null,
+          "discrepancy": "0.00502%",
+          "exactZero": false,
+          "roundedDiscrepancy": "0.01%",
+          "target": "0.5",
+          "x": "0.500",
+          "y": "0.5000251"
+        },
+        "qualified": false,
+        "roundedDiscrepancy": {
+          "d": "100",
+          "n": "1"
+        },
+        "target": {
+          "d": "2",
+          "n": "1"
+        },
+        "x": {
+          "d": "10000000",
+          "n": "5000251"
+        },
+        "y": {
+          "d": "10000000",
+          "n": "5000251"
+        }
+      },
+      "name": "p2-above",
+      "operation": 1,
+      "ratioText": "1",
+      "targetDecimals": 3,
+      "xText": "0.5000251"
+    },
+    {
+      "d": 4,
+      "evaluation": {
+        "discrepancy": null,
+        "display": {
+          "delta": null,
+          "discrepancy": null,
+          "exactZero": null,
+          "roundedDiscrepancy": null,
+          "target": "0",
+          "x": "0.0001",
+          "y": "0.0001"
+        },
+        "qualified": false,
+        "roundedDiscrepancy": null,
+        "target": {
+          "d": "1",
+          "n": "0"
+        },
+        "x": {
+          "d": "10000",
+          "n": "1"
+        },
+        "y": {
+          "d": "10000",
+          "n": "1"
+        }
+      },
+      "name": "target-zero",
+      "operation": 1,
+      "ratioText": "1",
+      "targetDecimals": 3,
+      "xText": "0.0001"
+    },
+    {
+      "d": 4,
+      "evaluation": {
+        "discrepancy": {
+          "d": "62",
+          "n": "25"
+        },
+        "display": {
+          "delta": null,
+          "discrepancy": "≈ 0.4032258065%",
+          "exactZero": false,
+          "roundedDiscrepancy": "0.403%",
+          "target": "0.124",
+          "x": "0.1235",
+          "y": "0.1235"
+        },
+        "qualified": false,
+        "roundedDiscrepancy": {
+          "d": "1000",
+          "n": "403"
+        },
+        "target": {
+          "d": "250",
+          "n": "31"
+        },
+        "x": {
+          "d": "2000",
+          "n": "247"
+        },
+        "y": {
+          "d": "2000",
+          "n": "247"
+        }
+      },
+      "name": "half-up-target",
+      "operation": 1,
+      "ratioText": "1",
+      "targetDecimals": 3,
+      "xText": "0.1235"
+    }
+  ],
+  "invalid": [
+    "",
+    "   ",
+    "abc",
+    "-1",
+    "+1",
+    "0",
+    "0.000",
+    "1e-3",
+    "NaN",
+    "Infinity",
+    ".5",
+    "1.",
+    "1,5"
+  ],
+  "meta": {
+    "defaults": {
+      "maxSteps": 1000000,
+      "resultLimit": 3,
+      "targetDecimals": null
+    },
+    "generator": "scripts/generate_fixtures.py",
+    "seed": 20261022
+  },
+  "thresholds": [
+    {
+      "discrepancy": {
+        "d": "5",
+        "n": "2"
+      },
+      "p": 0,
+      "qualified": true
+    },
+    {
+      "discrepancy": {
+        "d": "2",
+        "n": "1"
+      },
+      "p": 0,
+      "qualified": false
+    },
+    {
+      "discrepancy": {
+        "d": "10000",
+        "n": "49"
+      },
+      "p": 2,
+      "qualified": true
+    },
+    {
+      "discrepancy": {
+        "d": "200",
+        "n": "1"
+      },
+      "p": 2,
+      "qualified": false
+    },
+    {
+      "discrepancy": {
+        "d": "10000",
+        "n": "51"
+      },
+      "p": 2,
+      "qualified": false
+    }
+  ]
+}

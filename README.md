@@ -1,42 +1,58 @@
 # 數值微調搜尋器（Value Tuner）
 
-給定 `initial`、`ratio` 與乘法或除法，這個工具會在 `initial` 附近建立固定格點，找出符合指定捨入與誤差規則的候選值，省去手動逐一嘗試附近數字的時間。
+一個直接在瀏覽器使用的數值微調工具：輸入初始值、倍率與乘法或除法，便能在初始值附近搜尋符合捨入與誤差規則的候選值，不必手動反覆嘗試。
 
-瀏覽器版本可直接在頁面上操作，不需要登入、API key 或後端；專案也保留原本的 Python CLI。
+[立即使用線上版](https://yau2004.github.io/value-tuner/)
+
+不需要安裝、登入或 API key，計算在瀏覽器本機進行。專案也保留 Python 命令列版本。
 
 ## 畫面預覽
 
 ![數值微調搜尋器桌面版：完成 0.165、3.1818、乘法搜尋後，顯示設定摘要、initial 檢查結果與下調候選表](docs/images/value-tuner-desktop.png)
 
-目前線上版尚未發布；可在本機啟動完整網站。
+## 快速使用
+
+1. 開啟[線上版](https://yau2004.github.io/value-tuner/)。
+2. 輸入初始值（initial）與倍率（ratio），選擇乘法或除法。
+3. 按下「開始搜尋」，查看初始值的檢查結果，以及下調、上調兩個方向的合格候選。
+
+可以先試試 initial = `0.165`、ratio = `3.1818`、乘法。需要時可展開進階設定，調整搜尋步數、結果筆數或目標值的小數位數。
+
+輸入尾端的零有意義：`0.1`、`0.10` 與 `0.100` 會使用不同的搜尋步長與精度。顯示為 `0.00%` 只代表捨入後的誤差，不代表精確誤差一定為零。
 
 ## 主要功能
 
-- 支援乘法與除法兩種運算，分別向上、向下搜尋。
-- 兩個方向各自找出距離 `initial` 最近的合格候選，互不補足。
-- 保留 `initial` 的尾端零與對應精度，使用精確有理數判斷是否合格。
-- 計算全部在瀏覽器本機進行，並提供搜尋進度與取消功能。
-- 可在進階設定調整每方向步數、結果筆數與 target 小數位數。
+- 支援乘法與除法，向下、向上各自搜尋最近的合格候選，預設每方向最多 3 筆。
+- 保留輸入尾端零與對應精度，以精確有理數判斷是否合格。
+- 搜尋由 Web Worker 執行，提供進度與取消功能。
+- 可調整每方向的搜尋步數、結果筆數與目標值小數位數。
+- 計算在瀏覽器本機進行，不需要後端服務。
+
+搜尋受每方向步數上限限制；找不到候選不代表所有可能數值都無解。
 
 ## 使用技術
 
-- HTML、CSS、JavaScript ES modules、Vite
-- BigInt 有理數、Web Worker
-- Python `Decimal`／`Fraction`
-- pytest、Node 核心測試、Playwright、GitHub Actions／Pages
+- 前端：HTML、CSS、JavaScript ES modules、Vite
+- 計算：BigInt 有理數、Web Worker；Python `Decimal`／`Fraction`
+- 測試：pytest、Node 核心測試、Playwright、Python 對照 fixtures
+- 部署：GitHub Actions、GitHub Pages
 
 ## 本機使用
+
+### 網站版本
 
 Vite 8 需要 Node.js `^20.19.0` 或 `>=22.12.0`。
 
 ```bash
+git clone [https://github.com/Yau2004/value-tuner.git](https://github.com/Yau2004/value-tuner.git)
+cd value-tuner
 npm install
 npm run dev
 ```
 
 開啟 `http://localhost:5173/`。
 
-### Production build 與預覽
+建置與預覽 production 版本：
 
 ```bash
 npm run build
@@ -47,17 +63,17 @@ npm run preview
 
 ### Python CLI
 
-以 Python 3.12 驗證；沒有額外執行期依賴。
+以 Python 3.12 驗證；沒有額外執行期依賴。在專案根目錄執行：
 
 ```bash
 python main.py
 ```
 
-程式會依序詢問 `initial`、`ratio` 與 operation。
+依序輸入 initial、ratio 與 operation，即可查看結果。
 
 ### 測試
 
-Python 測試需先安裝 pytest：
+Python 測試：
 
 ```bash
 python -m pip install pytest
@@ -77,15 +93,13 @@ npm run build
 npm run test:browser
 ```
 
-也可以執行 `npm test`，一次跑完前端核心、建置與瀏覽器測試。
+也可以執行 `npm test`，一次執行前端核心測試、建置與瀏覽器測試。其他前置條件及替代瀏覽器設定請見下方開發文件。
 
 ## 為什麼做這個
 
-手動微調附近數值時，很容易只憑看起來接近的結果做判斷。這個工具把捨入精度、誤差門檻與搜尋順序固定下來，讓同一組輸入可以得到一致、可比較的候選清單。
+手動微調數值時，很容易只憑顯示結果看起來接近就做判斷。這個工具明確定義捨入精度、誤差門檻與搜尋順序，讓使用者能比較符合相同規則的候選值。
 
 ## 進一步說明
 
-- [數值規則與搜尋行為](docs/numerical-rules.md)：`d`／`step`／`p`、精確合格邊界、target=0、顯示近似值與停止條件。
+- [數值規則與搜尋行為](docs/numerical-rules.md)：輸入精度、搜尋步長、合格門檻、近似顯示與停止條件。
 - [開發、測試與部署](docs/development-and-deployment.md)：架構、測試前置條件、GitHub Pages 設定與已知限制。
-
-搜尋受每方向步數上限限制；找不到候選不代表所有可能數值都無解。

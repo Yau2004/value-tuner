@@ -1,47 +1,103 @@
-# 數值微調搜尋器（Value Tuner）
+# Value Tuner
 
-一個直接在瀏覽器使用的數值微調工具：輸入初始值、倍率與乘法或除法，便能在初始值附近搜尋符合捨入與誤差規則的候選值，不必手動反覆嘗試。
+Find nearby numeric values that satisfy precise rounding and relative-error rules—without manually tweaking numbers over and over.
 
-[立即使用線上版](https://yau2004.github.io/value-tuner/)
+[Try the live app](https://yau2004.github.io/value-tuner/)
 
-不需要安裝、登入或 API key，計算在瀏覽器本機進行。專案也保留 Python 命令列版本。
+Value Tuner searches around an initial value, applies multiplication or division by a specified ratio, and returns nearby candidates that meet the qualification criteria.
 
-## 畫面預覽
+The web app runs entirely in your browser. No installation, sign-in, API key, or backend service is required. A Python command-line version is also included.
 
-![數值微調搜尋器桌面版：完成 0.165、3.1818、乘法搜尋後，顯示設定摘要、initial 檢查結果與下調候選表](docs/images/value-tuner-desktop.png)
+## Preview
 
-## 快速使用
+![Value Tuner desktop interface showing search settings, the initial-value evaluation, and nearby qualifying candidates](docs/images/value-tuner-desktop.png)
 
-1. 開啟[線上版](https://yau2004.github.io/value-tuner/)。
-2. 輸入初始值（initial）與倍率（ratio），選擇乘法或除法。
-3. 按下「開始搜尋」，查看初始值的檢查結果，以及下調、上調兩個方向的合格候選。
+## Quick Start
 
-可以先試試 initial = `0.165`、ratio = `3.1818`、乘法。需要時可展開進階設定，調整搜尋步數、結果筆數或目標值的小數位數。
+1. Open the [live app](https://yau2004.github.io/value-tuner/).
+2. Enter an initial value and a ratio.
+3. Choose multiplication or division.
+4. Start the search.
+5. Review the initial-value evaluation and qualifying candidates below and above it.
 
-輸入尾端的零有意義：`0.1`、`0.10` 與 `0.100` 會使用不同的搜尋步長與精度。顯示為 `0.00%` 只代表捨入後的誤差，不代表精確誤差一定為零。
+Try these inputs:
 
-## 主要功能
+| Setting | Value |
+| --- | --- |
+| Initial value | `0.165` |
+| Ratio | `3.1818` |
+| Operation | Multiplication |
 
-- 支援乘法與除法，向下、向上各自搜尋最近的合格候選，預設每方向最多 3 筆。
-- 保留輸入尾端零與對應精度，以精確有理數判斷是否合格。
-- 搜尋由 Web Worker 執行，提供進度與取消功能。
-- 可調整每方向的搜尋步數、結果筆數與目標值小數位數。
-- 計算在瀏覽器本機進行，不需要後端服務。
+Expand the advanced settings to adjust the search-step limit, the number of results per direction, or the number of decimal places used for the rounded target.
 
-搜尋受每方向步數上限限制；找不到候選不代表所有可能數值都無解。
+## Features
 
-## 使用技術
+- Multiplication and division: evaluate an initial value against a specified ratio.
+- Bidirectional search: find the nearest qualifying candidates below and above the initial value, with up to three results per direction by default.
+- Precision-aware input: preserve trailing zeros and use the initial value's decimal precision to determine the search step.
+- Exact qualification checks: use rational arithmetic rather than approximate floating-point comparisons.
+- Responsive searching: run browser calculations in a Web Worker, with progress updates and cancellation.
+- Configurable search: adjust the step limit, result count, and target decimal places.
+- Local browser computation: run calculations without a backend service.
+- Python CLI: use the command-line version for an interactive terminal workflow.
 
-- 前端：HTML、CSS、JavaScript ES modules、Vite
-- 計算：BigInt 有理數、Web Worker；Python `Decimal`／`Fraction`
-- 測試：pytest、Node 核心測試、Playwright、Python 對照 fixtures
-- 部署：GitHub Actions、GitHub Pages
+## How It Works
 
-## 本機使用
+For each candidate value, Value Tuner:
 
-### 網站版本
+1. Multiplies or divides the candidate by the ratio.
+2. Rounds the result to the configured number of target decimal places using round-half-up.
+3. Calculates the relative discrepancy between the exact result and the rounded target.
+4. Checks whether that discrepancy is strictly below the qualification threshold.
 
-Vite 8 需要 Node.js `^20.19.0` 或 `>=22.12.0`。
+The relative discrepancy is calculated as:
+
+```text
+relative discrepancy (%) = |exact result - rounded target| / |rounded target| × 100
+```
+
+The qualification threshold depends on the decimal precision of the initial input:
+
+```text
+d = number of decimal places in the initial input
+p = max(d - 1, 0)
+
+qualification threshold (%) = 0.5 × 10^(-p)
+```
+
+A candidate qualifies only when its relative discrepancy is strictly below this threshold. Candidates whose rounded target is zero do not qualify.
+
+The initial value is evaluated separately. Searches then move outward in both directions, returning qualifying candidates in nearest-first order within each direction.
+
+### Trailing zeros matter
+
+`0.1`, `0.10`, and `0.100` represent the same numeric value, but they specify different input precision:
+
+| Initial input | Search step |
+| --- | --- |
+| `0.1` | `0.1` |
+| `0.10` | `0.01` |
+| `0.100` | `0.001` |
+
+This precision also affects the qualification threshold.
+
+### Displayed zero is not necessarily exact zero
+
+A displayed discrepancy of `0.00%` is a rounded representation. It does not necessarily mean that the exact discrepancy is zero.
+
+### Search limits
+
+Each direction has a maximum number of search steps. Finding no candidates within that limit does not prove that no qualifying values exist outside the searched range.
+
+The downward search stops before reaching a nonpositive candidate.
+
+See [Numerical Rules and Search Behavior](docs/numerical-rules.md) for the full details.
+
+## Run Locally
+
+### Web App
+
+The project uses Vite 8, which requires Node.js `^20.19.0` or `>=22.12.0`.
 
 ```bash
 git clone [https://github.com/Yau2004/value-tuner.git](https://github.com/Yau2004/value-tuner.git)
@@ -50,56 +106,86 @@ npm install
 npm run dev
 ```
 
-開啟 `http://localhost:5173/`。
+Open `http://localhost:5173/`.
 
-建置與預覽 production 版本：
+To build and preview the production version:
 
 ```bash
 npm run build
 npm run preview
 ```
 
-預覽網址為 `http://127.0.0.1:4173/value-tuner/`，用來模擬 GitHub Pages 子路徑。
+Open `http://127.0.0.1:4173/value-tuner/`.
+
+The preview uses the `/value-tuner/` base path to match the GitHub Pages deployment.
 
 ### Python CLI
 
-以 Python 3.12 驗證；沒有額外執行期依賴。在專案根目錄執行：
+The CLI has been verified with Python 3.12 and has no third-party runtime dependencies.
+
+From the project root, run:
 
 ```bash
 python main.py
 ```
 
-依序輸入 initial、ratio 與 operation，即可查看結果。
+Follow the prompts to enter the initial value, ratio, and operation.
 
-### 測試
+## Testing
 
-Python 測試：
+### Python Tests
+
+Install pytest and run the test suite:
 
 ```bash
 python -m pip install pytest
 python -m pytest -q
 ```
 
-JavaScript 核心與 Python fixtures 對照：
+### JavaScript Core Tests
+
+Run the JavaScript calculation tests, including comparisons against Python-generated fixtures:
 
 ```bash
 npm run test:core
 ```
 
-瀏覽器測試需要 production build 與本機 Chrome：
+### Browser Tests
+
+Browser tests require a production build and a local Chrome installation:
 
 ```bash
 npm run build
 npm run test:browser
 ```
 
-也可以執行 `npm test`，一次執行前端核心測試、建置與瀏覽器測試。其他前置條件及替代瀏覽器設定請見下方開發文件。
+To run the JavaScript core tests, production build, and browser tests together:
 
-## 為什麼做這個
+```bash
+npm test
+```
 
-手動微調數值時，很容易只憑顯示結果看起來接近就做判斷。這個工具明確定義捨入精度、誤差門檻與搜尋順序，讓使用者能比較符合相同規則的候選值。
+The Python test suite is run separately.
 
-## 進一步說明
+See [Development, Testing, and Deployment](docs/development-and-deployment.md) for additional prerequisites and alternative browser configurations.
 
-- [數值規則與搜尋行為](docs/numerical-rules.md)：輸入精度、搜尋步長、合格門檻、近似顯示與停止條件。
-- [開發、測試與部署](docs/development-and-deployment.md)：架構、測試前置條件、GitHub Pages 設定與已知限制。
+## Tech Stack
+
+| Area | Technologies |
+| --- | --- |
+| Frontend | HTML, CSS, JavaScript ES modules, Vite |
+| Browser computation | BigInt-based rational arithmetic, Web Worker |
+| Python computation | `Decimal`, `Fraction` |
+| Testing | pytest, Node.js core tests, Playwright, Python-generated fixtures |
+| Deployment | GitHub Actions, GitHub Pages |
+
+## Why Value Tuner?
+
+Manually adjusting numbers can make it tempting to accept a result simply because it looks close enough on screen.
+
+Value Tuner makes the rounding precision, error threshold, and search order explicit, so candidates can be compared under the same rules. Exact arithmetic separates the underlying qualification check from the rounded values shown in the interface.
+
+## Documentation
+
+- [Numerical Rules and Search Behavior](docs/numerical-rules.md): input precision, search steps, qualification thresholds, display rounding, and stopping conditions.
+- [Development, Testing, and Deployment](docs/development-and-deployment.md): architecture, test prerequisites, GitHub Pages configuration, and known limitations.
